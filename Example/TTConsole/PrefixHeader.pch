@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  TTConsole_Example
+//
+//  Created by 王家强 on 2019/5/5.
+//  Copyright © 2019 icofans. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import <TTConsole/TTConsole.h>
+
+// 开启日志
+#ifdef DEBUG
+#define NSLog(xxx, ...); \
+{NSLog((@"%s [%d行] " xxx), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);}\
+{[[TTConsole console] markLog:[NSString stringWithFormat:(@"%s [%d行] " xxx), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__]];}
+#else
+#define NSLog(...)
+#endif
+
+#endif /* PrefixHeader_pch */

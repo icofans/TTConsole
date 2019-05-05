@@ -7,7 +7,8 @@
 //
 
 #import "TTAppDelegate.h"
-#import <TTConsole/TTConsole.h>
+
+
 
 @implementation TTAppDelegate
 

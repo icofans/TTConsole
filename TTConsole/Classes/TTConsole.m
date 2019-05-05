@@ -52,7 +52,6 @@
 
 - (BOOL)registerConsole {
     if (![[UIApplication sharedApplication] delegate].window) {
-        NSLog(@"[Application]还未启动");
         return NO;
     } else {
         if (!self.floatView) {
