@@ -7,11 +7,29 @@
 //
 
 #import "TTAppDelegate.h"
+#import <TTConsole/TTConsole.h>
 
 @implementation TTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSLog(@"测试一下日志");
+
+    NSLog(@"application 启动完成");
+    
+    NSLog(@"测试一下日志");
+    
+    NSLog(@"application 启动完成");
+    NSLog(@"application 启动完成");
+    NSLog(@"application 启动完成");
+    NSLog(@"application 启动完成");
+    NSLog(@"application 启动完成");
+    NSLog(@"application 启动完成");
+    NSLog(@"application 启动完成");
+    NSLog(@"application 启动完成");
+    NSLog(@"application 启动完成");
+    
+    
     // Override point for customization after application launch.
     return YES;
 }

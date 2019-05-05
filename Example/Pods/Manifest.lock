@@ -1,0 +1,18 @@
+PODS:
+  - TTConsole (0.1.0):
+    - TTConsole/TTSignature (= 0.1.0)
+  - TTConsole/TTSignature (0.1.0)
+
+DEPENDENCIES:
+  - TTConsole (from `../`)
+
+EXTERNAL SOURCES:
+  TTConsole:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TTConsole: e4ee9301e8414a2a59f4624627fc7fb285d4e9bb
+
+PODFILE CHECKSUM: 53c12c6786d9aaca6ebdb7db71d602af55155509
+
+COCOAPODS: 1.5.3

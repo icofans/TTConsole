@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = icofans;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = X8GHMEWAMM;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -497,6 +500,7 @@
 			baseConfigurationReference = 92DA2D966FBF174AC605D7DF /* Pods-TTConsole_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X8GHMEWAMM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TTConsole/TTConsole-Prefix.pch";
 				INFOPLIST_FILE = "TTConsole/TTConsole-Info.plist";
@@ -512,6 +516,7 @@
 			baseConfigurationReference = F36F3569B9873075C4C1218A /* Pods-TTConsole_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X8GHMEWAMM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TTConsole/TTConsole-Prefix.pch";
 				INFOPLIST_FILE = "TTConsole/TTConsole-Info.plist";

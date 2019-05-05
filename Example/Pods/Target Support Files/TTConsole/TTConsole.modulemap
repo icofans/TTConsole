@@ -1,0 +1,6 @@
+framework module TTConsole {
+  umbrella header "TTConsole-umbrella.h"
+
+  export *
+  module * { export * }
+}

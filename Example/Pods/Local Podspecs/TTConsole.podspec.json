@@ -1,0 +1,32 @@
+{
+  "name": "TTConsole",
+  "version": "0.1.0",
+  "summary": "A short description of TTConsole.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "http://96333tech.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangjiaqiang": "12345"
+  },
+  "source": {
+    "svn": "svn://172.30.40.10/PRODUCT/ServicePlatform/SRC/trunk/iOS/libs/TTConsole"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TTConsole/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "TTSignature",
+      "source_files": "TTComponentKit/TTSignature/*.{h,m}",
+      "frameworks": [
+        "UIKit",
+        "GLKit",
+        "OpenGLES"
+      ]
+    }
+  ]
+}
