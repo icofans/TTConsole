@@ -7,30 +7,16 @@
 //
 
 #import "TTAppDelegate.h"
-
-
+#import "TTViewController.h"
 
 @implementation TTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    NSLog(@"测试一下日志");
 
-    NSLog(@"application 启动完成");
-    
-    NSLog(@"测试一下日志");
-    
-    NSLog(@"application 启动完成");
-    NSLog(@"application 启动完成");
-    NSLog(@"application 启动完成");
-    NSLog(@"application 启动完成");
-    NSLog(@"application 启动完成");
-    NSLog(@"application 启动完成");
-    NSLog(@"application 启动完成");
-    NSLog(@"application 启动完成");
-    NSLog(@"application 启动完成");
-    
-    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [TTViewController new];
+    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
     return YES;
 }

@@ -72,6 +72,15 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
+        
+        // 这里有个坑，调用makeKeyAndVisible会替换keywindow，导致其他使用keywindow的控件可能出现的问题
+        self.backgroundColor = [UIColor whiteColor];
+        self.windowLevel = UIWindowLevelAlert + 1;  //如果想在 alert 之上，则改成 + 2
+        self.rootViewController = [UIViewController new];
+        [self makeKeyAndVisible];
+        [[UIApplication sharedApplication].delegate.window makeKeyAndVisible];
+        
+        
         [self addSubview:self.topView];
         [self.topView addSubview:self.closeBtn];
         [self.topView addSubview:self.clearBtn];

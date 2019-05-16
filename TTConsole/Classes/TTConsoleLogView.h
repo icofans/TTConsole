@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TTConsoleLogView : UIView
+@interface TTConsoleLogView : UIWindow
 
 
 /**

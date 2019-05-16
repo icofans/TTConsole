@@ -67,7 +67,6 @@
 		D3C6BA3C9ACCA4582BB48A6F /* Pods_TTConsole_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTConsole_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFB1113BA6E000F24D564F5 /* Pods-TTConsole_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTConsole_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTConsole_Tests/Pods-TTConsole_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F36F3569B9873075C4C1218A /* Pods-TTConsole_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTConsole_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTConsole_Example/Pods-TTConsole_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F7C10CA6227E99B100E54737 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +143,6 @@
 		6003F593195388D20070C39A /* Example for TTConsole */ = {
 			isa = PBXGroup;
 			children = (
-				F7C10CA6227E99B100E54737 /* PrefixHeader.pch */,
 				6003F59C195388D20070C39A /* TTAppDelegate.h */,
 				6003F59D195388D20070C39A /* TTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -504,7 +502,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X8GHMEWAMM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/TTConsole/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "TTConsole/TTConsole-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -520,7 +518,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X8GHMEWAMM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/TTConsole/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "TTConsole/TTConsole-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";

@@ -51,11 +51,13 @@
 }
 
 - (BOOL)registerConsole {
+    // 保证页面被创建
     if (![[UIApplication sharedApplication] delegate].window) {
         return NO;
     } else {
         if (!self.floatView) {
             self.floatView = [[TTConsoleFloatView alloc] init];
+//            [[[UIApplication sharedApplication] delegate].window addSubview:self.floatView];
             __weak __typeof(self)weakSelf = self;
             self.floatView.onClick = ^{
                 weakSelf.floatView.hidden = YES;
@@ -79,7 +81,6 @@
         _logView.clearClick = ^{
             weakSelf.attributedlogStr = [[NSMutableAttributedString alloc] init];
         };
-        [[[UIApplication sharedApplication] delegate].window addSubview:_logView];
     }
     return _logView;
 }

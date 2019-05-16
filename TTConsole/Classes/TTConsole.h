@@ -7,13 +7,13 @@
 
 #import <Foundation/Foundation.h>
 
-//#ifdef DEBUG
-//#define NSLog(xxx, ...); \
-//{NSLog((@"%s [%d行] " xxx), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);}\
-//{[[TTConsole console] markLog:[NSString stringWithFormat:(@"%s [%d行] " xxx), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__]];}
-//#else
-//#define NSLog(...)
-//#endif
+#ifdef DEBUG
+#define NSLog(xxx, ...); \
+{NSLog((@"%s [%d行] " xxx), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);}\
+{[[TTConsole console] markLog:[NSString stringWithFormat:(@"%s [%d行] " xxx), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__]];}
+#else
+#define NSLog(...)
+#endif
 
 @interface TTConsole : NSObject
 
