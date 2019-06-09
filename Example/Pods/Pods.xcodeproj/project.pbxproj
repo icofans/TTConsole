@@ -45,7 +45,6 @@
 		43A303A526B48A293DF852278E9D93CF /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5D6CAEB3AD494A702A9D2E3597BAB2 /* UIProgressView+AFNetworking.m */; };
 		456668458AE96AAFB4AE090C7479ECA7 /* Pods-TTConsole_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E1AAD78CBD88CD3CA61DA336A808F4 /* Pods-TTConsole_Example-dummy.m */; };
 		4650361C4A6001B41D258C762AE72D33 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC83ADEDCA242FC11E5F0558F4CD0CA /* UIRefreshControl+AFNetworking.m */; };
-		47C5BED61E348F2578CB36A1F02E4C4C /* TTURLRequestKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B78E0E9B5F3D4D99265B214007937D /* TTURLRequestKey.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4B1E10163944C89EE6A2CB0484147141 /* TTHttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B12DDDDB1B46EC21EBB899174DBEBD9 /* TTHttpHelper.m */; };
 		4D5018D8243C88E293132C5AE8A28C93 /* TTHttpDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE13C2A5549CAAC68F5E85784D9C87F /* TTHttpDetailViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		50C6035F37261F623011176065DB439D /* YTKChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0A698D416DB42404E9B32FA601199 /* YTKChainRequest.m */; };
@@ -183,9 +182,8 @@
 		0240E5D1A0CA15095AD0AF8B5502AD87 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		02B773C328A293736EEFD19B8A5A3276 /* TTConsoleWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTConsoleWindow.h; path = TTConsole/Classes/Console/TTConsoleWindow.h; sourceTree = "<group>"; };
 		06D960C754078AD3F1B49B7FB029F5F4 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		07B78E0E9B5F3D4D99265B214007937D /* TTURLRequestKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTURLRequestKey.h; path = TTConsole/Classes/Http/TTURLRequestKey.h; sourceTree = "<group>"; };
 		0B82EBB809BC9A3F6DB2FB92A956C1BB /* TTCrashViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTCrashViewController.h; path = TTConsole/Classes/Crash/TTCrashViewController.h; sourceTree = "<group>"; };
-		0C270D69AB83DCA1954336A81C648A1A /* libPods-TTConsole_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TTConsole_Example.a"; path = "libPods-TTConsole_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C270D69AB83DCA1954336A81C648A1A /* libPods-TTConsole_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTConsole_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD1C97F13898171A5FC90EE03B40FDA /* YTKBaseRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKBaseRequest.h; path = YTKNetwork/YTKBaseRequest.h; sourceTree = "<group>"; };
 		0EB15081C3D5894D5C59DA1DC7FFC0AA /* Pods-TTConsole_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTConsole_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		11FB6F4F108B4FDF6B394989B17E6BCB /* fishhook.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fishhook.xcconfig; sourceTree = "<group>"; };
@@ -193,7 +191,7 @@
 		13405B179E13AEBF461946EEEFAEA1A2 /* TTTextPreViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTTextPreViewController.m; path = TTConsole/Classes/Sandbox/TTTextPreViewController.m; sourceTree = "<group>"; };
 		143D251A7B19189846A0D6D0360B2F40 /* TTConsoleController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTConsoleController.m; path = TTConsole/Classes/Console/TTConsoleController.m; sourceTree = "<group>"; };
 		162C75B69E7B0A290DA3AE9675189CED /* YTKChainRequestAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKChainRequestAgent.m; path = YTKNetwork/YTKChainRequestAgent.m; sourceTree = "<group>"; };
-		1709C053DE4E558FF5054697A1082EE5 /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; path = fishhook.c; sourceTree = "<group>"; };
+		1709C053DE4E558FF5054697A1082EE5 /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
 		1A14157F5944156B5FC92F4CDB854D95 /* NSURLSessionTask+Hook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSessionTask+Hook.h"; path = "TTConsole/Classes/Http/NSURLSessionTask+Hook.h"; sourceTree = "<group>"; };
 		1B86F0E8E7165C349CBFD0DA2D0807FF /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		1BB07332E23324E787008F15A521002D /* Pods-TTConsole_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTConsole_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -212,7 +210,7 @@
 		47D5994E5B1D716C60AE0D428E4DBE4B /* ResourceBundle-Resource-TTConsole-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Resource-TTConsole-Info.plist"; sourceTree = "<group>"; };
 		493F519203F77010C84B11F9A9E1DD9C /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		49642AA7D307A1B5E7F46E400B74F8DF /* fishhook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "fishhook-dummy.m"; sourceTree = "<group>"; };
-		4F5F515D225D5967B1FC639E5B48AA3A /* libPods-TTConsole_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TTConsole_Tests.a"; path = "libPods-TTConsole_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5F515D225D5967B1FC639E5B48AA3A /* libPods-TTConsole_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTConsole_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		531146E6E3D2CA5CF7778E81778BF191 /* TTConsole-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTConsole-prefix.pch"; sourceTree = "<group>"; };
 		545422264B3CD8BC5058B9C179302AEE /* TTURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTURLProtocol.h; path = TTConsole/Classes/Http/TTURLProtocol.h; sourceTree = "<group>"; };
 		54FCCE2A67DB1D43201E34694E1FF42B /* TTConsole-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTConsole-dummy.m"; sourceTree = "<group>"; };
@@ -226,7 +224,7 @@
 		5B66104826A9BB642C80101BD946A6FE /* TTSandboxViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTSandboxViewController.m; path = TTConsole/Classes/Sandbox/TTSandboxViewController.m; sourceTree = "<group>"; };
 		5D4CD5312BD26A2AB8B2308C00C09015 /* YTKNetworkPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKNetworkPrivate.m; path = YTKNetwork/YTKNetworkPrivate.m; sourceTree = "<group>"; };
 		5E85BFCEF72F5B73C4EF568AD7A275B4 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		601EEA66C9A6080A11C1ADE5E2A91AE1 /* libYTKNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYTKNetwork.a; path = libYTKNetwork.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		601EEA66C9A6080A11C1ADE5E2A91AE1 /* libYTKNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYTKNetwork.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		625895B82AE0928D920AB55A9C88BEF3 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		62E5A3ED6209BFAE9F3F5123C5A797BB /* Pods-TTConsole_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTConsole_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6577CF3A09428C06D9E314B13B1FA04E /* fishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
@@ -246,7 +244,7 @@
 		7E18E7F59F302AB35BF4A07E1FC68C4F /* TTConsoleController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTConsoleController.h; path = TTConsole/Classes/Console/TTConsoleController.h; sourceTree = "<group>"; };
 		88BC57FD489FA06CCAEBF1F790C8B8B8 /* TTHttpDetailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTHttpDetailViewController.m; path = TTConsole/Classes/Http/TTHttpDetailViewController.m; sourceTree = "<group>"; };
 		8A514E26CA0353B62AA0766BDE1A8102 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
-		8B12C59F50C92FB007432F1C964B55D7 /* libTTConsole.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTTConsole.a; path = libTTConsole.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B12C59F50C92FB007432F1C964B55D7 /* libTTConsole.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTTConsole.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8FE17D1DB323CCE6E01960F328DA0A /* YTKChainRequestAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKChainRequestAgent.h; path = YTKNetwork/YTKChainRequestAgent.h; sourceTree = "<group>"; };
 		8D514D0FEB4F7DD0386F63646617A242 /* YTKNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YTKNetwork-prefix.pch"; sourceTree = "<group>"; };
 		8F1CE7DDE7EECBB733677A1B45D77C8B /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
@@ -258,14 +256,14 @@
 		9601324DD09B894144DB3EB53465E040 /* NSURLRequest+DataExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+DataExt.h"; path = "TTConsole/Classes/Http/NSURLRequest+DataExt.h"; sourceTree = "<group>"; };
 		96E3E084AC5A6D0B9C4CD7095EEECBFD /* TTImgPreViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTImgPreViewController.h; path = TTConsole/Classes/Sandbox/TTImgPreViewController.h; sourceTree = "<group>"; };
 		98116B0B517CD8FD02C1E4B1DC9266B6 /* on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "on@2x.png"; path = "TTConsole/Assets/Resource/on@2x.png"; sourceTree = "<group>"; };
-		9AD1E8C604166C350C69BE1B3FBD6ABC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9B86D764459D3DEEC01E736A12895213 /* Resource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Resource.bundle; path = "TTConsole-Resource.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CA216629A7529B075F3AC826470B254 /* libfishhook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libfishhook.a; path = libfishhook.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AD1E8C604166C350C69BE1B3FBD6ABC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9B86D764459D3DEEC01E736A12895213 /* Resource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Resource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA216629A7529B075F3AC826470B254 /* libfishhook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libfishhook.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A00B4477A03A82F7C8EE158B837F3D42 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		A1ED15FE10B0503AE06C0D762D3C5197 /* YTKBatchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKBatchRequest.h; path = YTKNetwork/YTKBatchRequest.h; sourceTree = "<group>"; };
 		A492C6E606ADEA1B21C9F49CDF0BEFAE /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6177E1CD9B11BA92DFF5646DB9B119A /* fishhook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fishhook-prefix.pch"; sourceTree = "<group>"; };
 		A6FA1520D8D91E844503EA5F6F59C598 /* TTEnvViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTEnvViewController.h; path = TTConsole/Classes/Env/TTEnvViewController.h; sourceTree = "<group>"; };
 		ABC83ADEDCA242FC11E5F0558F4CD0CA /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
@@ -291,10 +289,10 @@
 		D0733127E0D7B2D1907D4CD82D3432B9 /* YTKRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKRequest.m; path = YTKNetwork/YTKRequest.m; sourceTree = "<group>"; };
 		D291760FADAF36E5AF7707709A5FE15D /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		D320380F91871956B503FE69652972FD /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
-		D35DE0AFC0CA8BEBFACAAF63C87905A6 /* TTConsole.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TTConsole.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D35DE0AFC0CA8BEBFACAAF63C87905A6 /* TTConsole.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TTConsole.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D39868284F55445313E9603448C3C4A9 /* TTCrashHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTCrashHelper.m; path = TTConsole/Classes/Crash/TTCrashHelper.m; sourceTree = "<group>"; };
 		D49036ADDFB6A5064C0BA24B29FF6BA9 /* TTSandboxViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTSandboxViewController.h; path = TTConsole/Classes/Sandbox/TTSandboxViewController.h; sourceTree = "<group>"; };
-		D5AA6760F43120993C095190EF341CD3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D5AA6760F43120993C095190EF341CD3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D64F453E517EA6755BC1D47C57E2889E /* TTEnvViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTEnvViewController.m; path = TTConsole/Classes/Env/TTEnvViewController.m; sourceTree = "<group>"; };
 		D669982314A008646BD577CF046A6AA1 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		D832D9F7CE3D90D7BA7ED25F18960CBA /* TTLogHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTLogHelper.h; path = TTConsole/Classes/Log/TTLogHelper.h; sourceTree = "<group>"; };
@@ -382,7 +380,6 @@
 				6577CF3A09428C06D9E314B13B1FA04E /* fishhook.h */,
 				A130EBD1948B44E8FF1183D7685DB26B /* Support Files */,
 			);
-			name = fishhook;
 			path = fishhook;
 			sourceTree = "<group>";
 		};
@@ -511,7 +508,6 @@
 				D0733127E0D7B2D1907D4CD82D3432B9 /* YTKRequest.m */,
 				623135FB3CB35E83C9C71217CDAD6A55 /* Support Files */,
 			);
-			name = YTKNetwork;
 			path = YTKNetwork;
 			sourceTree = "<group>";
 		};
@@ -625,7 +621,6 @@
 				F5D492B5C421FA65894DFB2CE8DA27D7 /* Support Files */,
 				8C990DE08922620AC79AAFF416BABB01 /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -659,7 +654,6 @@
 				DC64FB5B7436CDD8D7741DAA06D5D33E /* TTHttpViewController.m */,
 				545422264B3CD8BC5058B9C179302AEE /* TTURLProtocol.h */,
 				F6FA32F88ACF58FF9AB2AF4FBAE4348E /* TTURLProtocol.m */,
-				07B78E0E9B5F3D4D99265B214007937D /* TTURLRequestKey.h */,
 				E7AFD4FDCB0F93944A98B0B0915051E8 /* TTURLSessionHook.h */,
 				92B99EFA4AAFBD99DBD0397B78FA0961 /* TTURLSessionHook.m */,
 			);
@@ -823,7 +817,6 @@
 				2CC64ABCD7C4F348FC9062F9FC853BF1 /* TTSandboxViewController.h in Headers */,
 				C9FA75C4545455CA82E3F219ED60AB3C /* TTTextPreViewController.h in Headers */,
 				0C1395A1D79476AA1802A7CCED10FFC1 /* TTURLProtocol.h in Headers */,
-				47C5BED61E348F2578CB36A1F02E4C4C /* TTURLRequestKey.h in Headers */,
 				F589CDAABD94722CA5E2EB1A85B07FDB /* TTURLSessionHook.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1369,8 +1362,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

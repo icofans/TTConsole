@@ -6,7 +6,7 @@
 //
 
 #import "TTHttpDetailViewController.h"
-#import "TTURLRequestKey.h"
+#import "TTHttpHelper.h"
 
 static NSString * TTRequestNameKey = @"name";
 static NSString * TTRequestValueKey = @"value";

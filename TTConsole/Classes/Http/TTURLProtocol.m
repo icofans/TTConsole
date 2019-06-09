@@ -6,20 +6,7 @@
 //
 
 #import "TTURLProtocol.h"
-#import "TTURLRequestKey.h"
 #import "TTHttpHelper.h"
-
-NSString * const TTURLRequestRequestIdKey       = @"requestId";
-NSString * const TTURLRequestUrlKey             = @"url";
-NSString * const TTURLRequestMethodKey          = @"method";
-NSString * const TTURLRequestMineTypeKey        = @"mineType";
-NSString * const TTURLRequestStatusCodeKey      = @"statusCode";
-NSString * const TTURLRequestHeaderKey          = @"header";
-NSString * const TTURLRequestRequestBodyKey     = @"requestBody";
-NSString * const TTURLRequestResponseDataKey    = @"responseData";
-NSString * const TTURLRequestIsImageKey         = @"isImage";
-NSString * const TTURLRequestImageDataKey       = @"imageData";
-
 
 #define TTURLProtocolKey   @"TTURLProtocol"
 

@@ -8,7 +8,6 @@
 #import "NSURLSessionTask+Hook.h"
 #import <objc/runtime.h>
 #import "NSURLRequest+DataExt.h"
-#import "TTURLRequestKey.h"
 #import "TTHttpHelper.h"
 
 @implementation NSURLSessionTask (Hook)

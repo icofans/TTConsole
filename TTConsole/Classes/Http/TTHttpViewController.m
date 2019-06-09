@@ -6,7 +6,6 @@
 //
 
 #import "TTHttpViewController.h"
-#import "TTURLRequestKey.h"
 #import "TTHttpHelper.h"
 #import "TTHttpDetailViewController.h"
 

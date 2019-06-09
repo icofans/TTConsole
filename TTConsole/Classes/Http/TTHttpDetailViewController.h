@@ -6,7 +6,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TTURLRequestKey.h"
 
 @interface TTHttpDetailViewController : UIViewController
 

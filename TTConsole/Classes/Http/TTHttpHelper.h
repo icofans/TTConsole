@@ -7,6 +7,17 @@
 
 #import <Foundation/Foundation.h>
 
+extern NSString * const TTURLRequestRequestIdKey;
+extern NSString * const TTURLRequestUrlKey;
+extern NSString * const TTURLRequestMethodKey;
+extern NSString * const TTURLRequestMineTypeKey;
+extern NSString * const TTURLRequestHeaderKey;
+extern NSString * const TTURLRequestStatusCodeKey;
+extern NSString * const TTURLRequestRequestBodyKey;
+extern NSString * const TTURLRequestResponseDataKey;
+extern NSString * const TTURLRequestIsImageKey;
+extern NSString * const TTURLRequestImageDataKey;
+
 @interface TTHttpHelper : NSObject
 
 
