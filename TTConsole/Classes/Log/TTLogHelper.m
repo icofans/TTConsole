@@ -19,11 +19,15 @@
 
 static ssize_t (*orig_writev)(int a, const struct iovec * v, int v_len);
 ssize_t new_writev(int a, const struct iovec *v, int v_len) {
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss.SSS"];
+    NSString *dateStr = [dateFormatter stringFromDate:[NSDate date]];
     NSMutableArray *marr = [NSMutableArray array];
     for (int i = 0; i < v_len; i++) {
         char *c = (char *)v[i].iov_base;
         [marr addObject:[NSString stringWithCString:c encoding:NSUTF8StringEncoding]];
     }
+    [marr replaceObjectAtIndex:0 withObject:dateStr];
     ssize_t result = orig_writev(a, v, v_len);
     dispatch_async(dispatch_get_main_queue(), ^{
         // 获取到log信息
@@ -58,7 +62,7 @@ ssize_t new_writev(int a, const struct iovec *v, int v_len) {
     if (logArr.count < 3) {
         return;
     }
-    NSString *log_date = [self _dateFromStr:[[logArr.firstObject componentsSeparatedByString:@"+"] firstObject]];
+    NSString *log_date = logArr[0];
     NSMutableParagraphStyle *style = [[NSMutableParagraphStyle defaultParagraphStyle] mutableCopy];
     style.lineSpacing = 5;
     style.headIndent = 4;
@@ -74,17 +78,6 @@ ssize_t new_writev(int a, const struct iovec *v, int v_len) {
         self.updateLogStr([mAttr copy]);
     }
 }
-
-- (NSString *)_dateFromStr:(NSString *)dateStr
-{
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss.SSSSSS"];
-    NSDate *date=[dateFormatter dateFromString:dateStr];
-    [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss.SSS"];
-    NSString *newStr=[dateFormatter stringFromDate:date];
-    return newStr?newStr:@"";
-}
-
 
 @end
 
