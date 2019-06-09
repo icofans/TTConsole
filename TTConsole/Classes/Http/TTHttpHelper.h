@@ -40,4 +40,6 @@
  */
 - (void)clear;
 
+- (NSString *)jsonStrFromData:(NSData *)data;
+
 @end

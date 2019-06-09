@@ -11,6 +11,8 @@
 #import "TTURLRequestKey.h"
 #import "TTHttpHelper.h"
 
+NSString * const TTURLRequestRequestIdKey       = @"requestId";
+
 @implementation NSURLSessionTask (Hook)
 
 + (void)load {
@@ -137,7 +139,6 @@
     }
     
     NSURLResponse* resp = task.response;
-    
     NSMutableDictionary* model = [NSMutableDictionary dictionary];
     model[TTURLRequestRequestIdKey] = req.requestId;
     model[TTURLRequestUrlKey] = req.URL;
@@ -146,7 +147,7 @@
     
     if (req.HTTPBody) {
         NSData *data = req.HTTPBody;
-        model[TTURLRequestRequestBodyKey] = _jsonStrFromData(data);
+        model[TTURLRequestRequestBodyKey] = [[TTHttpHelper helper] jsonStrFromData:data];
     }
     NSHTTPURLResponse* httpResponse = (NSHTTPURLResponse*)resp;
     if ([resp isKindOfClass:[NSHTTPURLResponse class]]) {
@@ -156,30 +157,13 @@
     }
     BOOL isImage = [task.response.MIMEType rangeOfString:@"image"].location != NSNotFound;
     model[TTURLRequestStatusCodeKey] = [@(httpResponse.statusCode) stringValue];
-    model[TTURLRequestResponseDataKey] = isImage?nil:_jsonStrFromData(task.responseDatas);
+    model[TTURLRequestResponseDataKey] = isImage?nil:[[TTHttpHelper helper] jsonStrFromData:task.responseDatas];
     model[TTURLRequestImageDataKey] = isImage?task.responseDatas:nil;
     model[TTURLRequestIsImageKey] = @(isImage);
     [[TTHttpHelper helper] addHttpRequset:model];
     if ([TTHttpHelper helper].requestHookHandler) {
         [TTHttpHelper helper].requestHookHandler();
     }
-}
-
-static inline NSString *_jsonStrFromData(NSData *data)
-{
-    if (!data) {
-        return @"";
-    }
-    NSString *prettyString = nil;
-    id jsonObject = [NSJSONSerialization JSONObjectWithData:data options:0 error:NULL];
-    if ([NSJSONSerialization isValidJSONObject:jsonObject]) {
-        prettyString = [[NSString alloc] initWithData:[NSJSONSerialization dataWithJSONObject:jsonObject options:NSJSONWritingPrettyPrinted error:NULL] encoding:NSUTF8StringEncoding];
-        // NSJSONSerialization escapes forward slashes. We want pretty json, so run through and unescape the slashes.
-        prettyString = [prettyString stringByReplacingOccurrencesOfString:@"\\/" withString:@"/"];
-    } else {
-        prettyString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-    }
-    return prettyString;
 }
 
 #pragma mark - NSUrlSession data delegate with swizzling
@@ -271,7 +255,7 @@ static inline NSString *_jsonStrFromData(NSData *data)
     [self URLSession_swizzling:session dataTask:dataTask didBecomeDownloadTask:downloadTask];
 }
 
-- (void)URLSession_swizzling:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask didBecomeStreamTask:(NSURLSessionStreamTask *)streamTask {
+- (void)URLSession_swizzling:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask didBecomeStreamTask:(NSURLSessionStreamTask *)streamTask  API_AVAILABLE(ios(9.0)){
     [self URLSession_swizzling:session dataTask:dataTask didBecomeStreamTask:streamTask];
 }
 
