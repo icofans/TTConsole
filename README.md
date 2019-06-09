@@ -45,13 +45,11 @@ pod 'TTConsole'
 ## 截图
 
 ### 主界面
-<img src="https://github.com/icofans/TTConsole/blob/master/ScreenShot/%E4%B8%BB%E7%95%8C%E9%9D%A2-001.png" width="100">
-
-![主界面]( = 250x)
+<img src="https://github.com/icofans/TTConsole/blob/master/ScreenShot/%E4%B8%BB%E7%95%8C%E9%9D%A2-001.png" width="220">
 
 ### 环境切换
 
-![环境切换](https://github.com/icofans/TTConsole/blob/master/ScreenShot/%E7%8E%AF%E5%A2%83%E5%88%87%E6%8D%A2-002.png)
+<img src="https://github.com/icofans/TTConsole/blob/master/ScreenShot/%E7%8E%AF%E5%A2%83%E5%88%87%E6%8D%A2-002.png" width="220">
 
 ### 网络请求
 
