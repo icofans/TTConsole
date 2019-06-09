@@ -11,8 +11,7 @@
 #import "TTLogHelper.h"
 #import "TTHttpHelper.h"
 #import "TTCrashHelper.h"
-
-NSString * const TTEnvironmentKey = @"AppEnvironment";
+#import "TTEnvHelper.h"
 
 @interface TTConsole ()
 
@@ -76,7 +75,7 @@ NSString * const TTEnvironmentKey = @"AppEnvironment";
 #pragma mark - env
 - (TTEnvironmentType)currentEnvironment
 {
-    return [[NSUserDefaults standardUserDefaults] integerForKey:TTEnvironmentKey];
+    return [TTEnvHelper helper].currentEnvironment;
 }
 
 @end

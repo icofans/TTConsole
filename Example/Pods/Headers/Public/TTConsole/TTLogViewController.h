@@ -1,1 +1,1 @@
-../../../../../TTConsole/Classes/Log/TTLogViewController.h
+../../../../../TTConsole/Log/TTLogViewController.h

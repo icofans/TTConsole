@@ -13,9 +13,6 @@ typedef NS_OPTIONS(NSUInteger, TTEnvironmentType) {
     ENV_PRODUCTION_TEST         = 2, // 生产测试
 };
 
-// env key
-extern NSString * const TTEnvironmentKey;
-
 @interface TTConsole : NSObject
 
 /**
@@ -34,11 +31,6 @@ extern NSString * const TTEnvironmentKey;
  当前环境，默认重启后生效
  */
 @property (nonatomic, assign, readonly) TTEnvironmentType currentEnvironment;
-
-/**
- 环境切换回调 [如果切换需要重启请直接在启动时读取currentEnvironment，此属性只用于立即切换不重启的情况]
- */
-@property (nonatomic,copy) void(^environmentChanged)(TTEnvironmentType env);
 
 
 @end

@@ -12,10 +12,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/icofans/TTConsole.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'TTConsole/Classes/*.{h,m}'
+  s.source_files = 'TTConsole/*.{h,m}'
   
   s.subspec 'Console' do |ss|
-      ss.source_files = 'TTConsole/Classes/Console/*.{h,m}'
+      ss.source_files = 'TTConsole/Console/*.{h,m}'
       ss.frameworks = 'UIKit'
       ss.dependency 'TTConsole/Log'
       ss.dependency 'TTConsole/Env'
@@ -24,23 +24,23 @@ TODO: Add long description of the pod here.
       ss.dependency 'TTConsole/Sandbox'
   end
   s.subspec 'Log' do |ss|
-      ss.source_files = 'TTConsole/Classes/Log/*.{h,m}'
+      ss.source_files = 'TTConsole/Log/*.{h,m}'
       ss.frameworks = 'UIKit'
   end
   s.subspec 'Env' do |ss|
-      ss.source_files = 'TTConsole/Classes/Env/*.{h,m}'
+      ss.source_files = 'TTConsole/Env/*.{h,m}'
       ss.frameworks = 'UIKit'
   end
   s.subspec 'Http' do |ss|
-      ss.source_files = 'TTConsole/Classes/Http/*.{h,m}'
+      ss.source_files = 'TTConsole/Http/*.{h,m}'
       ss.frameworks = 'UIKit'
   end
   s.subspec 'Crash' do |ss|
-      ss.source_files = 'TTConsole/Classes/Crash/*.{h,m}'
+      ss.source_files = 'TTConsole/Crash/*.{h,m}'
       ss.frameworks = 'UIKit'
   end
   s.subspec 'Sandbox' do |ss|
-      ss.source_files = 'TTConsole/Classes/Sandbox/*.{h,m}'
+      ss.source_files = 'TTConsole/Sandbox/*.{h,m}'
       ss.frameworks = 'QuickLook','UIKit'
   end
   s.resource_bundles = {

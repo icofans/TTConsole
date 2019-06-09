@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TTConsole/Classes/*.{h,m}",
+  "source_files": "TTConsole/*.{h,m}",
   "resource_bundles": {
     "Resource": [
       "TTConsole/Assets/Resource/*.png"
@@ -32,7 +32,7 @@
   "subspecs": [
     {
       "name": "Console",
-      "source_files": "TTConsole/Classes/Console/*.{h,m}",
+      "source_files": "TTConsole/Console/*.{h,m}",
       "frameworks": "UIKit",
       "dependencies": {
         "TTConsole/Log": [
@@ -54,27 +54,27 @@
     },
     {
       "name": "Log",
-      "source_files": "TTConsole/Classes/Log/*.{h,m}",
+      "source_files": "TTConsole/Log/*.{h,m}",
       "frameworks": "UIKit"
     },
     {
       "name": "Env",
-      "source_files": "TTConsole/Classes/Env/*.{h,m}",
+      "source_files": "TTConsole/Env/*.{h,m}",
       "frameworks": "UIKit"
     },
     {
       "name": "Http",
-      "source_files": "TTConsole/Classes/Http/*.{h,m}",
+      "source_files": "TTConsole/Http/*.{h,m}",
       "frameworks": "UIKit"
     },
     {
       "name": "Crash",
-      "source_files": "TTConsole/Classes/Crash/*.{h,m}",
+      "source_files": "TTConsole/Crash/*.{h,m}",
       "frameworks": "UIKit"
     },
     {
       "name": "Sandbox",
-      "source_files": "TTConsole/Classes/Sandbox/*.{h,m}",
+      "source_files": "TTConsole/Sandbox/*.{h,m}",
       "frameworks": [
         "QuickLook",
         "UIKit"

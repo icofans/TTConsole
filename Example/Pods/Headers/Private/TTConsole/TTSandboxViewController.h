@@ -1,1 +1,1 @@
-../../../../../TTConsole/Classes/Sandbox/TTSandboxViewController.h
+../../../../../TTConsole/Sandbox/TTSandboxViewController.h

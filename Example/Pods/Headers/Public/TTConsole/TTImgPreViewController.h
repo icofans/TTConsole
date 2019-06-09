@@ -1,1 +1,1 @@
-../../../../../TTConsole/Classes/Sandbox/TTImgPreViewController.h
+../../../../../TTConsole/Sandbox/TTImgPreViewController.h

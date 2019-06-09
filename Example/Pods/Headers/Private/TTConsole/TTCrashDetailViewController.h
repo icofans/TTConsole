@@ -1,1 +1,1 @@
-../../../../../TTConsole/Classes/Crash/TTCrashDetailViewController.h
+../../../../../TTConsole/Crash/TTCrashDetailViewController.h

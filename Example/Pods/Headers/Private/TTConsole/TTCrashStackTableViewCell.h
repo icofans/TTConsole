@@ -1,1 +1,1 @@
-../../../../../TTConsole/Classes/Crash/TTCrashStackTableViewCell.h
+../../../../../TTConsole/Crash/TTCrashStackTableViewCell.h

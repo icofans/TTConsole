@@ -1,1 +1,1 @@
-../../../../../TTConsole/Classes/Console/TTConsoleController.h
+../../../../../TTConsole/Console/TTConsoleController.h

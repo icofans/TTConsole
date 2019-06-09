@@ -1,1 +1,1 @@
-../../../../../TTConsole/Classes/Http/TTHttpDetailViewController.h
+../../../../../TTConsole/Http/TTHttpDetailViewController.h

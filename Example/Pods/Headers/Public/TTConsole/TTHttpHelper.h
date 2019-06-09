@@ -1,1 +1,1 @@
-../../../../../TTConsole/Classes/Http/TTHttpHelper.h
+../../../../../TTConsole/Http/TTHttpHelper.h

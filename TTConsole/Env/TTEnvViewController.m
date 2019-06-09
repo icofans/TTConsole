@@ -7,7 +7,7 @@
 
 #import "TTEnvViewController.h"
 #import "TTEnvTableViewCell.h"
-#import "TTConsole.h"
+#import "TTEnvHelper.h"
 
 @interface TTEnvViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -71,19 +71,19 @@
 {
     self.dataSource = @[
                         @{
-                            TTEnvironmentTypeKey:@(ENV_INTRANET_TEST),
+                            TTEnvironmentTypeKey:@(0),
                             TTEnvironmentNameKey:@"内网测试环境",
-                            TTEnvironmentSelectKey: @([TTConsole console].currentEnvironment == ENV_INTRANET_TEST)
+                            TTEnvironmentSelectKey: @([TTEnvHelper helper].currentEnvironment == 0)
                             },
                         @{
-                            TTEnvironmentTypeKey:@(ENV_OUTERNET_TEST),
+                            TTEnvironmentTypeKey:@(1),
                             TTEnvironmentNameKey:@"外网测试环境",
-                            TTEnvironmentSelectKey: @([TTConsole console].currentEnvironment == ENV_OUTERNET_TEST)
+                            TTEnvironmentSelectKey: @([TTEnvHelper helper].currentEnvironment == 1)
                             },
                         @{
-                            TTEnvironmentTypeKey:@(ENV_PRODUCTION_TEST),
+                            TTEnvironmentTypeKey:@(2),
                             TTEnvironmentNameKey:@"外网正式环境",
-                            TTEnvironmentSelectKey: @([TTConsole console].currentEnvironment == ENV_PRODUCTION_TEST)
+                            TTEnvironmentSelectKey: @([TTEnvHelper helper].currentEnvironment == 2)
                             }
                         ];
     [self.tableView reloadData];
@@ -127,8 +127,8 @@
         // 存储
         [[NSUserDefaults standardUserDefaults] setInteger:indexPath.row forKey:TTEnvironmentKey];
         [[NSUserDefaults standardUserDefaults] synchronize];
-        if ([TTConsole console].environmentChanged) {
-            [TTConsole console].environmentChanged(indexPath.row);
+        if ([TTEnvHelper helper].environmentChanged) {
+            [TTEnvHelper helper].environmentChanged(indexPath.row);
         }
         [weakSelf.tableView reloadData];
     }]];

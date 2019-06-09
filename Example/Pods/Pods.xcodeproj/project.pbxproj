@@ -7,120 +7,129 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02D2ADBDCEAF35599685562121605CA0 /* TTHttpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC64FB5B7436CDD8D7741DAA06D5D33E /* TTHttpViewController.m */; };
-		0796B41C1AAAD22A0FFEF07C817AE7CC /* TTConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = E6607DE8726AA417E37CB7B3D86348BF /* TTConsole.m */; };
-		089D7D13ECF9E76716513EDC1B79A45E /* TTHttpViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F20812723D2608F5800C57E86C9CBE4E /* TTHttpViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0ADD52C092F71BCECB2849122D1CCD63 /* on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98116B0B517CD8FD02C1E4B1DC9266B6 /* on@2x.png */; };
-		0C1395A1D79476AA1802A7CCED10FFC1 /* TTURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 545422264B3CD8BC5058B9C179302AEE /* TTURLProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0E11963B6F02B4FB6072E83254C7E792 /* TTURLSessionHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B99EFA4AAFBD99DBD0397B78FA0961 /* TTURLSessionHook.m */; };
+		0630AD9F28B522B59E0C225A8061289B /* TTHttpViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 909912DCC8773F0B1CC564BC57936A51 /* TTHttpViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0ABFB9B4BC2523BBCE5243393DF64511 /* TTConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 806937E884BE0F8D5C0CF78C33E9EFEF /* TTConsole.m */; };
+		0D771AD1652282A3C35DF8BB7AA88F00 /* TTSandboxViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F138B53958E8E23390C5081203D2971A /* TTSandboxViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0F87C6EF446EE6DD24F7CD86ADD7EEF4 /* YTKBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E61D6764AA0BE69B99E52115303E50 /* YTKBaseRequest.m */; };
 		0FEB91C5E5D790315A2DFAF2DAFFFFC9 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A911CA6E2B60B04247D45696555E996 /* AFSecurityPolicy.m */; };
+		103A097C8165AEC0E30D7D80CAC268FC /* TTConsole-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC04C4399E62CD6DF291BABD77426752 /* TTConsole-dummy.m */; };
 		14FD34BAE2429DA1DDE36F6FDFB2001C /* YTKNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BFC90070967E19F70914A64451FCDF /* YTKNetworkConfig.m */; };
 		1702B2C8835837DF15CED44596CBECFC /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AF999B958DAC066BFE62499EEBAFD8 /* AFNetworking-dummy.m */; };
+		17F70A375636F288304C9E4EBF206BD6 /* TTURLSessionHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 9729AF71ADA9630351B1DF6612F1E170 /* TTURLSessionHook.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		18F582F38FD49E892FCFE7B83BE9AD04 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E85BFCEF72F5B73C4EF568AD7A275B4 /* UIImageView+AFNetworking.m */; };
+		1BF50F9F0AE994B587095A0419001A71 /* TTCrashStackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A879AF69C8936821B50A84AD69216C01 /* TTCrashStackTableViewCell.m */; };
 		1C5C60929DEFB4E1CF551244892D7C38 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B317D3BC095B0E4CB89857E03DAD9F0F /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1D9D745357010948A222445FECDD2B1C /* file@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A93E6F789FC97423902957F988C26F /* file@2x.png */; };
-		1D9FE52E786E5904396C0673013AF12B /* TTEnvTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C6F107A4A22E8B1341567E651282CA /* TTEnvTableViewCell.m */; };
-		1F376F359831EA5C2BFFAF166950363A /* TTConsole-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FCCE2A67DB1D43201E34694E1FF42B /* TTConsole-dummy.m */; };
+		1D2B28E49E8F5D9421B208DFD31BDD71 /* TTConsoleController.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E097B3183C0D5F24C5A5B7273581E6 /* TTConsoleController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D67C9439250EB3932976EC466D28D56 /* TTCrashHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B366FB06FCE27FAD2E80C7575D33B5 /* TTCrashHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1E59DA621BC8F97FFC261419EBA78CA1 /* TTConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BC510D87C109C97CD987313F640DE1 /* TTConsoleController.m */; };
+		2695F40BBA280A631AF4399319357A49 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 1709C053DE4E558FF5054697A1082EE5 /* fishhook.c */; };
 		26CBC98247054E50A07D0CCC9BE72659 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CBBA176F1B415565E2587302842B0742 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		26CC69F34B009EB5C0B7E0BAEDD163D0 /* TTEnvTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD8B3F0B1E4ABAC7FF8276AABC6FE51 /* TTEnvTableViewCell.m */; };
 		2701041826CC8978ECB035A405C6AF32 /* YTKBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EC461B232578B0E801A6E78805A732 /* YTKBatchRequestAgent.m */; };
-		285E7F4B05258A3EC5C4BE9A1A6B93A5 /* TTCrashDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FFFE9076BBF1F163DB2984BE0F10586 /* TTCrashDetailViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2CC64ABCD7C4F348FC9062F9FC853BF1 /* TTSandboxViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D49036ADDFB6A5064C0BA24B29FF6BA9 /* TTSandboxViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2D1A5F5ECDEAA476A64FAF79FB4DE51E /* TTEnvViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D64F453E517EA6755BC1D47C57E2889E /* TTEnvViewController.m */; };
+		2C0454F4C7942856370FF1D2FF8CA354 /* TTHttpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81D61425560E41DDBE6E5F83B0F3A36 /* TTHttpViewController.m */; };
 		2F569DF7901E69E74505F2DAAE5F27AF /* YTKNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4CD5312BD26A2AB8B2308C00C09015 /* YTKNetworkPrivate.m */; };
-		329CA4664A0BCD591EB2F472C6BDF1BC /* off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD28E1A96F74983417B480945C62B0D /* off@2x.png */; };
 		334D64703BDF64D362B1CC4757C0FAFF /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7980EDA3A51E11DC4BE2D95A60DF29 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		34F2617D6CCC6C7E77CB7F1584D41F4F /* YTKNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C0D01AA8226A7F41B6A1F7BC0D44DA /* YTKNetworkAgent.m */; };
-		35C3776DCB0FA164BF0A2A535CAED1A1 /* TTConsoleWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 02B773C328A293736EEFD19B8A5A3276 /* TTConsoleWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		37CA006359B8C4E3D89207566E125311 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1CE7DDE7EECBB733677A1B45D77C8B /* UIActivityIndicatorView+AFNetworking.m */; };
-		3914D211079E6880CB014ED6D9FC6717 /* TTLogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B124811F094012B77890AF5BD4BEC0E6 /* TTLogViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		39DB268ADE5E9D6449E09959A18D7583 /* YTKNetworkPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B33BC8F556B463FA775BE3936106B0D /* YTKNetworkPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3A69DFC38A3581D227C0E472C15815FB /* TTConsoleWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 39E9B96698D0D3DA2B89CBF816A7170E /* TTConsoleWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3BF7DB4DBFF2880825E10566BFF9AA0C /* YTKBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D1CE46D41D5B94DC4042CB0E1971C0 /* YTKBatchRequest.m */; };
-		3C98FD5D05DEC3EE693748A0D6DB1937 /* NSURLSessionTask+Hook.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A14157F5944156B5FC92F4CDB854D95 /* NSURLSessionTask+Hook.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3EFCEFE8DF41E998697B237B4D04C0FB /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8955E6D83EED8B04BEB5916D0772CA /* back@2x.png */; };
-		3F728487EA7126145EF4AD97366F8A65 /* TTEnvViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A6FA1520D8D91E844503EA5F6F59C598 /* TTEnvViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		42AF71A51C6EB2D6302FF3EAFDC5E9E8 /* TTCrashDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741B51D1E47547666E03106DADDE05E8 /* TTCrashDetailViewController.m */; };
-		42FFE239191A8249D850E339419DD25D /* TTCrashHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FEDDB513789C5F1A127E6F6361C57E /* TTCrashHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		437F130D8474FC390E16B98D714B01DD /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 493F519203F77010C84B11F9A9E1DD9C /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		43A303A526B48A293DF852278E9D93CF /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5D6CAEB3AD494A702A9D2E3597BAB2 /* UIProgressView+AFNetworking.m */; };
 		456668458AE96AAFB4AE090C7479ECA7 /* Pods-TTConsole_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E1AAD78CBD88CD3CA61DA336A808F4 /* Pods-TTConsole_Example-dummy.m */; };
 		4650361C4A6001B41D258C762AE72D33 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC83ADEDCA242FC11E5F0558F4CD0CA /* UIRefreshControl+AFNetworking.m */; };
-		4B1E10163944C89EE6A2CB0484147141 /* TTHttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B12DDDDB1B46EC21EBB899174DBEBD9 /* TTHttpHelper.m */; };
-		4D5018D8243C88E293132C5AE8A28C93 /* TTHttpDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE13C2A5549CAAC68F5E85784D9C87F /* TTHttpDetailViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4815F053B61FB321A677A82396A18734 /* NSURLRequest+DataExt.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A2E659B7092678EC84ED6386550AAB /* NSURLRequest+DataExt.m */; };
+		4899DD054AC94A49C3EBCD9297687D97 /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 342D72E59D2752BBE6E9DBAB5528AA81 /* delete@2x.png */; };
+		4EF09CE85853CB77555FD747D9F39EA9 /* file@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA21CD734900AE298AA4AB4570F80504 /* file@2x.png */; };
 		50C6035F37261F623011176065DB439D /* YTKChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0A698D416DB42404E9B32FA601199 /* YTKChainRequest.m */; };
 		5480FD73602A293AA4D59354C46BC6C4 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = B583663653F34DFA866B431BBEA22267 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		552FAD34A570DD8D94198047E482FD3F /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F22F61624AFF89DB293F02A0F109AA4F /* AFNetworkActivityIndicatorManager.m */; };
 		559A26501D684DCA93EC0D943DA86602 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D669982314A008646BD577CF046A6AA1 /* AFHTTPSessionManager.m */; };
-		559C805F6A04D8398995C79BE8765974 /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D974E8F004FE153FC9D201D103AAE5B3 /* delete@2x.png */; };
 		565FCC2638BCEF8CBFA82E2F57E27A06 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 625895B82AE0928D920AB55A9C88BEF3 /* AFURLResponseSerialization.m */; };
+		56B849891253B7226CA3DA03E89E0667 /* TTTextPreViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C1566E586BA5162D25628343F470FB /* TTTextPreViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		580E304EBF3029A473E9C79C588ACA3F /* YTKChainRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C96C053235997CE904730E5B267E85C7 /* YTKChainRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		583A5C6EA6B245CFA60689713B0E1CE0 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F0C3DD9DCCF003331316004DCF5630 /* AFNetworkReachabilityManager.m */; };
+		5BA13EC96D46EDE091539989BE89F1AB /* on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C13B4E4EB89BDA212139969DA8BB886D /* on@2x.png */; };
 		5D73E2DCC2E2A62A4901F5027B9A50E0 /* YTKChainRequestAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C8FE17D1DB323CCE6E01960F328DA0A /* YTKChainRequestAgent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5FE6B2898022EFBEF0584133C943B9DB /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328B1FCA26E996E5013299D44771462B /* close@2x.png */; };
 		62FEBCE2A7101824E8D4516B1DF3321B /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AFCC6DAFA80CC00AFB326914D3315160 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66B9A1AE2C78847F122AC77FB1644913 /* TTImgPreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE278DC506FA481B2D63DFC66F64A7E1 /* TTImgPreViewController.m */; };
 		68785726B12FDFAE423039A3E7096927 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A96FD421E81126B16C33940B89A5A /* UIWebView+AFNetworking.m */; };
 		6B02789ABBFBC931B5B663E479BA3B9D /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A514E26CA0353B62AA0766BDE1A8102 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6C11E40D6C89D79E816DF3EDFCBD1722 /* YTKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D0733127E0D7B2D1907D4CD82D3432B9 /* YTKRequest.m */; };
-		6C4ABDF19CBEE88DF284F996B9C69AB3 /* TTTextPreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13405B179E13AEBF461946EEEFAEA1A2 /* TTTextPreViewController.m */; };
-		6DE81041234F20DF442EE4664271F06F /* NSURLSessionTask+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7C9315C980ABBF365E5447BFA009F7 /* NSURLSessionTask+Hook.m */; };
+		6CBD9A5E22AD02BE00636270 /* TTEnvHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CBD9A5C22AD02BE00636270 /* TTEnvHelper.h */; };
+		6CBD9A5F22AD02BE00636270 /* TTEnvHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBD9A5D22AD02BE00636270 /* TTEnvHelper.m */; };
 		6E6D71FE6B7B60815EE1C1791F5C704C /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0240E5D1A0CA15095AD0AF8B5502AD87 /* AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		74CB1421F137AAA3A54781A62DC0D083 /* NSURLRequest+DataExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 9601324DD09B894144DB3EB53465E040 /* NSURLRequest+DataExt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		79CACD398A0B72F568F76D91A66698B8 /* TTHttpHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6791BE2C29858DC37AEF203C39F9435A /* TTHttpHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7318AF9C7B6FC3C2E758A213047A1052 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7347CE5030DC349FE945BBC6122166FB /* back@2x.png */; };
+		7385F9B83DF00A7B29775B7A4B8D806C /* TTURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C2158298BCD9EC6E50EBD22CAEC34 /* TTURLProtocol.m */; };
+		78C584A4C95F18E330FEEEA0C78764C9 /* TTSandboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B119647F68F57E98AF8D9510664E6EF /* TTSandboxViewController.m */; };
 		7AC43A53A9C4E2B22988EAA99B8578BD /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 92E84D77F1E8A77E6A9CF614F1796D6F /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		811A0EBD84D4F71EE6193EA9443ADD49 /* folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B9582ECB5657E566C7B8DB2401CDD2 /* folder@2x.png */; };
+		7E49B79E56469540944A76AB404B8EE0 /* TTCrashDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB710F50F8DCCB88BF562F7A63D4ECE6 /* TTCrashDetailViewController.m */; };
+		81AA156499883AAE3D357403EB954E31 /* TTLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876E93E1CE60D101FF275B12D6DF539C /* TTLogViewController.m */; };
+		887F44C8CDB9802F26B40AE1490FFBC2 /* fishhook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49642AA7D307A1B5E7F46E400B74F8DF /* fishhook-dummy.m */; };
+		88D3E473D01E676F23A8BDE75F966575 /* TTCrashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2079ABEF98A10E0F97E9AA9E825F32F /* TTCrashViewController.m */; };
 		8930947C7D346F918F12270766729719 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D6C7F36FAAEA4862999717991BD60FF /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89F056FD165165AC0506E5418DE20D1E /* TTLogHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E4C286DE186C4DE94CF1CFC50FDDDDDF /* TTLogHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8BB5C698E7E0C9B807FE12543C4BF030 /* YTKRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA5FDA869876554795D9FD28E2FC0B8 /* YTKRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8C65F2B298E5931A496410667975AB62 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A492C6E606ADEA1B21C9F49CDF0BEFAE /* AFURLSessionManager.m */; };
 		8D297BE6235A17D484992B5730D47E6E /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ED65AD9A4F1FC4B8D5C393EC3C54C35 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E0C555433A05BCB149C29C6EF9FF174 /* TTEnvTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2859BCBDF028AA8EC46E83553104DCF0 /* TTEnvTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8E1CEEFB271365C0FCB489F1C61ACEE8 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A00B4477A03A82F7C8EE158B837F3D42 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8FAC3817B507E430F99AC51B3604807D /* TTCrashStackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 596A5BEBB48A702D389F21ACB27F6BA8 /* TTCrashStackTableViewCell.m */; };
+		8FF938E634FD0AE8CE1BB6247929F696 /* off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03E3DF15F43E551EE545A02D19939DB8 /* off@2x.png */; };
 		930CBAE1BA17DE10AF4E7AD044FDE0B5 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7603C5FAFA426EDB213AA34194068AB9 /* AFImageDownloader.m */; };
-		997BD3E1F8D0512535EDB754EB9F63F7 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E47E8CB289C68F3BFDD17BF79B1B0B /* close@2x.png */; };
+		9682F599B7373FF3637F29AA2146357F /* NSURLSessionTask+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0F6ADFB0452F82A211EB19370EF431 /* NSURLSessionTask+Hook.m */; };
+		98E6E223D48E261A2B435ADAD8272F0F /* TTCrashDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E9DFAEB953D154ACF394AD2E6E21A4 /* TTCrashDetailViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		99A0C787EC7F2F79B43204A77035109F /* NSURLSessionTask+Hook.h in Headers */ = {isa = PBXBuildFile; fileRef = F3063B5D2C9F7CC78A08F16C452AEE02 /* NSURLSessionTask+Hook.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9AA362AF9AE7FEF55655754F3D4CA23A /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EBB08715786FF75E9B2AD1D7F6E96181 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9E3066D14D0EF50B7A875E8E8A5A64F6 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EB05D032F0F934748A9AB1EA932E3248 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A0B88B3338C3D97BDA01551686C6B966 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E411B83D26A21A6394C29A7981AC8446 /* AFURLRequestSerialization.m */; };
 		A0BCE0D858AC48B66BE008DCABC4679B /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B591890A9105889E82E89C840A55CA8 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A39648697A4B903D9FAAB2C1D52515AA /* TTURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7D41E251D33F6F3AE97BA75F2F3B64 /* TTURLProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A4E0714B6B6E0E25A0EB89410F7BBA9B /* Pods-TTConsole_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0DA7D158FA9D6C7BDCCFE8E054F903 /* Pods-TTConsole_Tests-dummy.m */; };
-		A650568510B9A9CEEDB22BDAD4817DB9 /* TTConsoleWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD2F0B5617E6DE85E88140814E8C027 /* TTConsoleWindow.m */; };
-		A7E58F961462F1B8CC4B7BEC3D136DE8 /* TTConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143D251A7B19189846A0D6D0360B2F40 /* TTConsoleController.m */; };
-		A95BE4C187406A307908D0C7EA00E051 /* TTCrashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB4041643BA9B5D90A360F6B179F10C /* TTCrashViewController.m */; };
-		AA6C504DBC1246A6DB03EB32A1AFC2DE /* TTConsoleController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E18E7F59F302AB35BF4A07E1FC68C4F /* TTConsoleController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AAAD00EEF587263A4208F5C1D1C37746 /* TTImgPreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA80525F620EEBF88BA565E980DE5B9 /* TTImgPreViewController.m */; };
+		A4EF433152813AF25712FE1C7352C685 /* TTConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 35CD4E06BCD282C6BE21826BD747FD7C /* TTConsole.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA5237077F15124875BE089D908FD1B9 /* TTCrashViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D24C84CC7E3792D97B0D05CF9BF4CB /* TTCrashViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AC03F246D6009819DCA837833625CE9A /* YTKNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = DFEBE8158749EE5B64F401821C526EA2 /* YTKNetwork.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AE1525A5F33B2E2C4BA87575DACFA562 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 1709C053DE4E558FF5054697A1082EE5 /* fishhook.c */; };
+		AC1C0583352DF49A43A262FAAD705612 /* folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE7BB04AC1A9AE2FED55382854B99CD8 /* folder@2x.png */; };
+		B02590F1EE0145BF44D6D3364945DF91 /* TTCrashStackTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 547E9DEF4874028E705701DBB99D6916 /* TTCrashStackTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B04382AF420B1EB0596BF39FC437D73A /* YTKNetworkAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = B17D4720574EEF4EE9C586378A916290 /* YTKNetworkAgent.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B0B2A1A9AC34E65CAC3A543D56107D9B /* YTKChainRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C75B69E7B0A290DA3AE9675189CED /* YTKChainRequestAgent.m */; };
+		B2D05BD984F01D0CDE533AFBC82EFC38 /* TTImgPreViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D7745319F6CA90D52DED9637D8AAA2B /* TTImgPreViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6611B23758E6B0AB18385F54994C87D /* TTHttpDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DE4AB187C91B7BA3E33D9922C88EF7 /* TTHttpDetailViewController.m */; };
+		B769C37A07662FF2C3292C314E03D643 /* TTLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2008A953152DAFE95EF43EFBC2B22F /* TTLogHelper.m */; };
 		B91391303DCCE280599F88BEED2CF34D /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D291760FADAF36E5AF7707709A5FE15D /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B934C983371044B48495263857211083 /* YTKBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD1C97F13898171A5FC90EE03B40FDA /* YTKBaseRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B9745FAD2B7D1066437110549B2D2188 /* NSURLRequest+DataExt.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DB64441B4614B6320B352C34D315B5 /* NSURLRequest+DataExt.m */; };
-		B9FC4823C26624E6D9A5C921B304C26D /* TTConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBAFBE65F8A32FCE9A802200A080708 /* TTConsole.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BC7926CEF60D4B871D0B80042F4F1030 /* YTKNetworkConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 202AF8444E9F3DEC191984E82547B512 /* YTKNetworkConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C1942106B3E164334E50C6E2A3EA9162 /* TTURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FA32F88ACF58FF9AB2AF4FBAE4348E /* TTURLProtocol.m */; };
 		C31BBA92E6CC3410C6791D3FF24E4B95 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 237E7E9939ECC3E66EF19E7575D6F50F /* AFAutoPurgingImageCache.m */; };
-		C393984B162105A3129A961ADA65A46E /* TTCrashViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B82EBB809BC9A3F6DB2FB92A956C1BB /* TTCrashViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C45FD3801E1C8F910B6F94D6036F1307 /* TTLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8CA73EE8BC6574C5758E92CD4AEFBA /* TTLogHelper.m */; };
-		C56265814BF9159F86542847ACB43458 /* TTHttpDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BC57FD489FA06CCAEBF1F790C8B8B8 /* TTHttpDetailViewController.m */; };
-		C9FA75C4545455CA82E3F219ED60AB3C /* TTTextPreViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 59CC45E5144876B9834C0E60544EAD68 /* TTTextPreViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6EA1EDE300C9747BB72F1E34F49F0C7 /* TTCrashHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E1EB9281A42AF7A847C0A3B252C4D0 /* TTCrashHelper.m */; };
+		CA12932C058DB67E97DE6687FB8B35FD /* TTURLSessionHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C7A05B5FE0E035A8141EA335FA639F /* TTURLSessionHook.m */; };
 		CD12666C0B10935B169072D111449160 /* YTKBatchRequestAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB6B65D9EB46F577CED3B21B082131B /* YTKBatchRequestAgent.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CE7EC61BFD9C1FB54EB0D9B40B51D6F5 /* TTCrashHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D39868284F55445313E9603448C3C4A9 /* TTCrashHelper.m */; };
+		D1C584E152B37F61FFA3AE690CDF1593 /* TTTextPreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4B0964710FD184A151DD6DD25851D1 /* TTTextPreViewController.m */; };
 		D4237975630BDC855E26D27E99D5F15D /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = D320380F91871956B503FE69652972FD /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D4DFEF418BF9138043AA81B43A5695E2 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 6577CF3A09428C06D9E314B13B1FA04E /* fishhook.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D85EF7080BB7494D7BF08FB4E0AD713E /* TTEnvTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E9D629F38F86627E7A85B19AFB9110 /* TTEnvTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D90DC549DFFD48FE50A98A289E414406 /* TTSandboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B66104826A9BB642C80101BD946A6FE /* TTSandboxViewController.m */; };
+		D52DD1FE750FEFE0BB85B6102085C765 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 6577CF3A09428C06D9E314B13B1FA04E /* fishhook.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6EAAFB72CDE366FCF0733B8558F30FC /* TTEnvViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 921BEEACF309A79A00AC45D9862F0EB8 /* TTEnvViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8C8D88D69CC7B667812C97AEC755003 /* TTHttpHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBF1B333CE9CBD58C4A16D3E5125959 /* TTHttpHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8E72611EC3E7B2AA7FBAC68111C33BE /* TTEnvViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E422C02F2194BE322BF73CA1DF9C911 /* TTEnvViewController.m */; };
 		DA045B9E00CDD0CC3451BFBBE786CDB0 /* YTKBatchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A1ED15FE10B0503AE06C0D762D3C5197 /* YTKBatchRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DAFABE3F657189B8C1AFEF4BBDA7BCD2 /* TTCrashStackTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E0DB540BAB6BAA70E9E0ECB6EB23B3B9 /* TTCrashStackTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DB9E1C46C6C37F0D0CC9D9DBC56DD69F /* NSURLRequest+DataExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA4978618C2D96C07051385267FC7E5 /* NSURLRequest+DataExt.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E0B71AFF452DE18C668A512B9D4713FE /* YTKNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1725AA17D765358F4E70C1DEB89175B /* YTKNetwork-dummy.m */; };
+		E29DCBB32EF92504EAC72A12EA10DF4E /* TTConsoleWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C97DAEBEDB13006F4CA3BB4E40CC5E52 /* TTConsoleWindow.m */; };
+		E72470F93E1B791D7ADE72A988612FE4 /* TTHttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAD85885D661DD079ED3BFDFA5BF7D6 /* TTHttpHelper.m */; };
 		E98030D5CD4B69A0FDAF218DA1E87881 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B86F0E8E7165C349CBFD0DA2D0807FF /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EB0E9C501DE84898D3D97CCAF0FF4F72 /* fishhook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49642AA7D307A1B5E7F46E400B74F8DF /* fishhook-dummy.m */; };
-		EE1F6BE67EAA508FD5A3C690101B5993 /* TTLogHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D832D9F7CE3D90D7BA7ED25F18960CBA /* TTLogHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ECBDFC3F70A89A5BA1EA06CB95E4BA53 /* TTLogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D71CDDA5B88EE8CE83142C520A260D3 /* TTLogViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F27C0664AAA5AD449E0D9A929930BA1E /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 399D21069142D545A7593EFD6AB317AE /* UIButton+AFNetworking.m */; };
-		F362E2C8E2D019F5D73E43E77BCE5F95 /* TTImgPreViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E3E084AC5A6D0B9C4CD7095EEECBFD /* TTImgPreViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F589CDAABD94722CA5E2EB1A85B07FDB /* TTURLSessionHook.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AFD4FDCB0F93944A98B0B0915051E8 /* TTURLSessionHook.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FB83608E321F31B6D0660E72C93DA601 /* TTLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75400D85AA6BF655E30CFA6FFABBED0 /* TTLogViewController.m */; };
 		FBDD7CC98B903CEE27160496D19D2950 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D960C754078AD3F1B49B7FB029F5F4 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC649E6DA5EEC00B12B2492D4607AE64 /* TTHttpDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D5536D191ADB74453B02E1563A612854 /* TTHttpDetailViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		01F098EF15C4F7D48711702C9A2D8EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58CAF5B0291DAB42086F0645150E1791;
+			remoteInfo = fishhook;
+		};
+		27B06652CE16A4AB3E0F77593B5D7A66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -141,19 +150,19 @@
 			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
 		};
+		4B387DB2CC104E7F20F961503E21378C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D17FAFC31BF4D75D92E38D8E07BAE38;
+			remoteInfo = "TTConsole-Resource";
+		};
 		93E5DB8360B50AF468B04D275F1055F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AC51EA5BE1682F8277BE5F13677E147C;
 			remoteInfo = YTKNetwork;
-		};
-		C8B44920EA846C1523C573E74FDA5A30 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 58CAF5B0291DAB42086F0645150E1791;
-			remoteInfo = fishhook;
 		};
 		D54EEC23B34F8C9F5ABF2D24ED52C62C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -169,159 +178,154 @@
 			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
 		};
-		F39726FC58602267A104AFAF918CD158 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6D17FAFC31BF4D75D92E38D8E07BAE38;
-			remoteInfo = "TTConsole-Resource";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0240E5D1A0CA15095AD0AF8B5502AD87 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		02B773C328A293736EEFD19B8A5A3276 /* TTConsoleWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTConsoleWindow.h; path = TTConsole/Classes/Console/TTConsoleWindow.h; sourceTree = "<group>"; };
+		03E3DF15F43E551EE545A02D19939DB8 /* off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "off@2x.png"; path = "TTConsole/Assets/Resource/off@2x.png"; sourceTree = "<group>"; };
 		06D960C754078AD3F1B49B7FB029F5F4 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		0B82EBB809BC9A3F6DB2FB92A956C1BB /* TTCrashViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTCrashViewController.h; path = TTConsole/Classes/Crash/TTCrashViewController.h; sourceTree = "<group>"; };
+		0963A940D3FDF4F9F68D1906AA37AB41 /* TTConsole.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TTConsole.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0B4B0964710FD184A151DD6DD25851D1 /* TTTextPreViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTTextPreViewController.m; path = TTConsole/Sandbox/TTTextPreViewController.m; sourceTree = "<group>"; };
+		0C2008A953152DAFE95EF43EFBC2B22F /* TTLogHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTLogHelper.m; path = TTConsole/Log/TTLogHelper.m; sourceTree = "<group>"; };
 		0C270D69AB83DCA1954336A81C648A1A /* libPods-TTConsole_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTConsole_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD1C97F13898171A5FC90EE03B40FDA /* YTKBaseRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKBaseRequest.h; path = YTKNetwork/YTKBaseRequest.h; sourceTree = "<group>"; };
 		0EB15081C3D5894D5C59DA1DC7FFC0AA /* Pods-TTConsole_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTConsole_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		11FB6F4F108B4FDF6B394989B17E6BCB /* fishhook.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fishhook.xcconfig; sourceTree = "<group>"; };
 		12E61D6764AA0BE69B99E52115303E50 /* YTKBaseRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKBaseRequest.m; path = YTKNetwork/YTKBaseRequest.m; sourceTree = "<group>"; };
-		13405B179E13AEBF461946EEEFAEA1A2 /* TTTextPreViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTTextPreViewController.m; path = TTConsole/Classes/Sandbox/TTTextPreViewController.m; sourceTree = "<group>"; };
-		143D251A7B19189846A0D6D0360B2F40 /* TTConsoleController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTConsoleController.m; path = TTConsole/Classes/Console/TTConsoleController.m; sourceTree = "<group>"; };
 		162C75B69E7B0A290DA3AE9675189CED /* YTKChainRequestAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKChainRequestAgent.m; path = YTKNetwork/YTKChainRequestAgent.m; sourceTree = "<group>"; };
 		1709C053DE4E558FF5054697A1082EE5 /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
-		1A14157F5944156B5FC92F4CDB854D95 /* NSURLSessionTask+Hook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSessionTask+Hook.h"; path = "TTConsole/Classes/Http/NSURLSessionTask+Hook.h"; sourceTree = "<group>"; };
 		1B86F0E8E7165C349CBFD0DA2D0807FF /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		1BB07332E23324E787008F15A521002D /* Pods-TTConsole_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTConsole_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1CD28E1A96F74983417B480945C62B0D /* off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "off@2x.png"; path = "TTConsole/Assets/Resource/off@2x.png"; sourceTree = "<group>"; };
+		1FD3B3D4E8272139E2054E1EF0E5EC90 /* TTConsole-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTConsole-prefix.pch"; sourceTree = "<group>"; };
 		202AF8444E9F3DEC191984E82547B512 /* YTKNetworkConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKNetworkConfig.h; path = YTKNetwork/YTKNetworkConfig.h; sourceTree = "<group>"; };
 		237E7E9939ECC3E66EF19E7575D6F50F /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
-		25A93E6F789FC97423902957F988C26F /* file@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "file@2x.png"; path = "TTConsole/Assets/Resource/file@2x.png"; sourceTree = "<group>"; };
+		2859BCBDF028AA8EC46E83553104DCF0 /* TTEnvTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTEnvTableViewCell.h; path = TTConsole/Env/TTEnvTableViewCell.h; sourceTree = "<group>"; };
 		287353BAC806122AF6870DEFC23EBCE2 /* Pods-TTConsole_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTConsole_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2D6C7F36FAAEA4862999717991BD60FF /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		2E1F44C94151437947EB63DE3F01A332 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		30E097B3183C0D5F24C5A5B7273581E6 /* TTConsoleController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTConsoleController.h; path = TTConsole/Console/TTConsoleController.h; sourceTree = "<group>"; };
 		31D1CE46D41D5B94DC4042CB0E1971C0 /* YTKBatchRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKBatchRequest.m; path = YTKNetwork/YTKBatchRequest.m; sourceTree = "<group>"; };
+		328B1FCA26E996E5013299D44771462B /* close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close@2x.png"; path = "TTConsole/Assets/Resource/close@2x.png"; sourceTree = "<group>"; };
+		342D72E59D2752BBE6E9DBAB5528AA81 /* delete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "delete@2x.png"; path = "TTConsole/Assets/Resource/delete@2x.png"; sourceTree = "<group>"; };
+		35CD4E06BCD282C6BE21826BD747FD7C /* TTConsole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTConsole.h; path = TTConsole/TTConsole.h; sourceTree = "<group>"; };
 		38BFC90070967E19F70914A64451FCDF /* YTKNetworkConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKNetworkConfig.m; path = YTKNetwork/YTKNetworkConfig.m; sourceTree = "<group>"; };
 		399D21069142D545A7593EFD6AB317AE /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		3AD2F0B5617E6DE85E88140814E8C027 /* TTConsoleWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTConsoleWindow.m; path = TTConsole/Classes/Console/TTConsoleWindow.m; sourceTree = "<group>"; };
+		39E9B96698D0D3DA2B89CBF816A7170E /* TTConsoleWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTConsoleWindow.h; path = TTConsole/Console/TTConsoleWindow.h; sourceTree = "<group>"; };
+		3EBF1B333CE9CBD58C4A16D3E5125959 /* TTHttpHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTHttpHelper.h; path = TTConsole/Http/TTHttpHelper.h; sourceTree = "<group>"; };
 		419FBC82B570A8E64E5D583B39EB447A /* Pods-TTConsole_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTConsole_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		47D5994E5B1D716C60AE0D428E4DBE4B /* ResourceBundle-Resource-TTConsole-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Resource-TTConsole-Info.plist"; sourceTree = "<group>"; };
+		43E9DFAEB953D154ACF394AD2E6E21A4 /* TTCrashDetailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTCrashDetailViewController.h; path = TTConsole/Crash/TTCrashDetailViewController.h; sourceTree = "<group>"; };
+		44BC510D87C109C97CD987313F640DE1 /* TTConsoleController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTConsoleController.m; path = TTConsole/Console/TTConsoleController.m; sourceTree = "<group>"; };
+		47B366FB06FCE27FAD2E80C7575D33B5 /* TTCrashHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTCrashHelper.h; path = TTConsole/Crash/TTCrashHelper.h; sourceTree = "<group>"; };
 		493F519203F77010C84B11F9A9E1DD9C /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		49642AA7D307A1B5E7F46E400B74F8DF /* fishhook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "fishhook-dummy.m"; sourceTree = "<group>"; };
+		4CA4978618C2D96C07051385267FC7E5 /* NSURLRequest+DataExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+DataExt.h"; path = "TTConsole/Http/NSURLRequest+DataExt.h"; sourceTree = "<group>"; };
 		4F5F515D225D5967B1FC639E5B48AA3A /* libPods-TTConsole_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTConsole_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		531146E6E3D2CA5CF7778E81778BF191 /* TTConsole-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTConsole-prefix.pch"; sourceTree = "<group>"; };
-		545422264B3CD8BC5058B9C179302AEE /* TTURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTURLProtocol.h; path = TTConsole/Classes/Http/TTURLProtocol.h; sourceTree = "<group>"; };
-		54FCCE2A67DB1D43201E34694E1FF42B /* TTConsole-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTConsole-dummy.m"; sourceTree = "<group>"; };
-		55FEDDB513789C5F1A127E6F6361C57E /* TTCrashHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTCrashHelper.h; path = TTConsole/Classes/Crash/TTCrashHelper.h; sourceTree = "<group>"; };
-		57B9582ECB5657E566C7B8DB2401CDD2 /* folder@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "folder@2x.png"; path = "TTConsole/Assets/Resource/folder@2x.png"; sourceTree = "<group>"; };
-		57E47E8CB289C68F3BFDD17BF79B1B0B /* close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close@2x.png"; path = "TTConsole/Assets/Resource/close@2x.png"; sourceTree = "<group>"; };
-		596A5BEBB48A702D389F21ACB27F6BA8 /* TTCrashStackTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTCrashStackTableViewCell.m; path = TTConsole/Classes/Crash/TTCrashStackTableViewCell.m; sourceTree = "<group>"; };
-		59CC45E5144876B9834C0E60544EAD68 /* TTTextPreViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTTextPreViewController.h; path = TTConsole/Classes/Sandbox/TTTextPreViewController.h; sourceTree = "<group>"; };
-		5B12DDDDB1B46EC21EBB899174DBEBD9 /* TTHttpHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTHttpHelper.m; path = TTConsole/Classes/Http/TTHttpHelper.m; sourceTree = "<group>"; };
+		547E9DEF4874028E705701DBB99D6916 /* TTCrashStackTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTCrashStackTableViewCell.h; path = TTConsole/Crash/TTCrashStackTableViewCell.h; sourceTree = "<group>"; };
+		5AAD85885D661DD079ED3BFDFA5BF7D6 /* TTHttpHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTHttpHelper.m; path = TTConsole/Http/TTHttpHelper.m; sourceTree = "<group>"; };
 		5B33BC8F556B463FA775BE3936106B0D /* YTKNetworkPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKNetworkPrivate.h; path = YTKNetwork/YTKNetworkPrivate.h; sourceTree = "<group>"; };
-		5B66104826A9BB642C80101BD946A6FE /* TTSandboxViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTSandboxViewController.m; path = TTConsole/Classes/Sandbox/TTSandboxViewController.m; sourceTree = "<group>"; };
 		5D4CD5312BD26A2AB8B2308C00C09015 /* YTKNetworkPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKNetworkPrivate.m; path = YTKNetwork/YTKNetworkPrivate.m; sourceTree = "<group>"; };
+		5D7745319F6CA90D52DED9637D8AAA2B /* TTImgPreViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTImgPreViewController.h; path = TTConsole/Sandbox/TTImgPreViewController.h; sourceTree = "<group>"; };
+		5D9C2158298BCD9EC6E50EBD22CAEC34 /* TTURLProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTURLProtocol.m; path = TTConsole/Http/TTURLProtocol.m; sourceTree = "<group>"; };
 		5E85BFCEF72F5B73C4EF568AD7A275B4 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		601EEA66C9A6080A11C1ADE5E2A91AE1 /* libYTKNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYTKNetwork.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		625895B82AE0928D920AB55A9C88BEF3 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		62E5A3ED6209BFAE9F3F5123C5A797BB /* Pods-TTConsole_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTConsole_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		64DE4AB187C91B7BA3E33D9922C88EF7 /* TTHttpDetailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTHttpDetailViewController.m; path = TTConsole/Http/TTHttpDetailViewController.m; sourceTree = "<group>"; };
 		6577CF3A09428C06D9E314B13B1FA04E /* fishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
-		6791BE2C29858DC37AEF203C39F9435A /* TTHttpHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTHttpHelper.h; path = TTConsole/Classes/Http/TTHttpHelper.h; sourceTree = "<group>"; };
-		67E9D629F38F86627E7A85B19AFB9110 /* TTEnvTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTEnvTableViewCell.h; path = TTConsole/Classes/Env/TTEnvTableViewCell.h; sourceTree = "<group>"; };
 		6939ABD26B8D13FFF25A3CD41EA78908 /* Pods-TTConsole_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTConsole_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6B591890A9105889E82E89C840A55CA8 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		6CBD9A5C22AD02BE00636270 /* TTEnvHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TTEnvHelper.h; path = TTConsole/Env/TTEnvHelper.h; sourceTree = "<group>"; };
+		6CBD9A5D22AD02BE00636270 /* TTEnvHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TTEnvHelper.m; path = TTConsole/Env/TTEnvHelper.m; sourceTree = "<group>"; };
 		6ED65AD9A4F1FC4B8D5C393EC3C54C35 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		6FFFE9076BBF1F163DB2984BE0F10586 /* TTCrashDetailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTCrashDetailViewController.h; path = TTConsole/Classes/Crash/TTCrashDetailViewController.h; sourceTree = "<group>"; };
-		741B51D1E47547666E03106DADDE05E8 /* TTCrashDetailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTCrashDetailViewController.m; path = TTConsole/Classes/Crash/TTCrashDetailViewController.m; sourceTree = "<group>"; };
+		7341EA82D1B9FDCE915724563BDDB660 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7347CE5030DC349FE945BBC6122166FB /* back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "back@2x.png"; path = "TTConsole/Assets/Resource/back@2x.png"; sourceTree = "<group>"; };
 		7603C5FAFA426EDB213AA34194068AB9 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		76A3BB912E97C54BD0362588FC91E455 /* TTConsole.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTConsole.xcconfig; sourceTree = "<group>"; };
 		7A911CA6E2B60B04247D45696555E996 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		7B119647F68F57E98AF8D9510664E6EF /* TTSandboxViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTSandboxViewController.m; path = TTConsole/Sandbox/TTSandboxViewController.m; sourceTree = "<group>"; };
 		7CF0A698D416DB42404E9B32FA601199 /* YTKChainRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKChainRequest.m; path = YTKNetwork/YTKChainRequest.m; sourceTree = "<group>"; };
-		7DB4041643BA9B5D90A360F6B179F10C /* TTCrashViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTCrashViewController.m; path = TTConsole/Classes/Crash/TTCrashViewController.m; sourceTree = "<group>"; };
 		7E0DA7D158FA9D6C7BDCCFE8E054F903 /* Pods-TTConsole_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTConsole_Tests-dummy.m"; sourceTree = "<group>"; };
-		7E18E7F59F302AB35BF4A07E1FC68C4F /* TTConsoleController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTConsoleController.h; path = TTConsole/Classes/Console/TTConsoleController.h; sourceTree = "<group>"; };
-		88BC57FD489FA06CCAEBF1F790C8B8B8 /* TTHttpDetailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTHttpDetailViewController.m; path = TTConsole/Classes/Http/TTHttpDetailViewController.m; sourceTree = "<group>"; };
+		7E0F6ADFB0452F82A211EB19370EF431 /* NSURLSessionTask+Hook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLSessionTask+Hook.m"; path = "TTConsole/Http/NSURLSessionTask+Hook.m"; sourceTree = "<group>"; };
+		7E422C02F2194BE322BF73CA1DF9C911 /* TTEnvViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTEnvViewController.m; path = TTConsole/Env/TTEnvViewController.m; sourceTree = "<group>"; };
+		806937E884BE0F8D5C0CF78C33E9EFEF /* TTConsole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTConsole.m; path = TTConsole/TTConsole.m; sourceTree = "<group>"; };
+		876E93E1CE60D101FF275B12D6DF539C /* TTLogViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTLogViewController.m; path = TTConsole/Log/TTLogViewController.m; sourceTree = "<group>"; };
+		88C7A05B5FE0E035A8141EA335FA639F /* TTURLSessionHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTURLSessionHook.m; path = TTConsole/Http/TTURLSessionHook.m; sourceTree = "<group>"; };
 		8A514E26CA0353B62AA0766BDE1A8102 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		8B12C59F50C92FB007432F1C964B55D7 /* libTTConsole.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTTConsole.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8FE17D1DB323CCE6E01960F328DA0A /* YTKChainRequestAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKChainRequestAgent.h; path = YTKNetwork/YTKChainRequestAgent.h; sourceTree = "<group>"; };
 		8D514D0FEB4F7DD0386F63646617A242 /* YTKNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YTKNetwork-prefix.pch"; sourceTree = "<group>"; };
 		8F1CE7DDE7EECBB733677A1B45D77C8B /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		8FA80525F620EEBF88BA565E980DE5B9 /* TTImgPreViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTImgPreViewController.m; path = TTConsole/Classes/Sandbox/TTImgPreViewController.m; sourceTree = "<group>"; };
+		909912DCC8773F0B1CC564BC57936A51 /* TTHttpViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTHttpViewController.h; path = TTConsole/Http/TTHttpViewController.h; sourceTree = "<group>"; };
 		90E1AAD78CBD88CD3CA61DA336A808F4 /* Pods-TTConsole_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTConsole_Example-dummy.m"; sourceTree = "<group>"; };
-		92B99EFA4AAFBD99DBD0397B78FA0961 /* TTURLSessionHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTURLSessionHook.m; path = TTConsole/Classes/Http/TTURLSessionHook.m; sourceTree = "<group>"; };
+		921BEEACF309A79A00AC45D9862F0EB8 /* TTEnvViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTEnvViewController.h; path = TTConsole/Env/TTEnvViewController.h; sourceTree = "<group>"; };
 		92E84D77F1E8A77E6A9CF614F1796D6F /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		93749F08DA7F05E2DAC9CB855FB2BC3E /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		9601324DD09B894144DB3EB53465E040 /* NSURLRequest+DataExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+DataExt.h"; path = "TTConsole/Classes/Http/NSURLRequest+DataExt.h"; sourceTree = "<group>"; };
-		96E3E084AC5A6D0B9C4CD7095EEECBFD /* TTImgPreViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTImgPreViewController.h; path = TTConsole/Classes/Sandbox/TTImgPreViewController.h; sourceTree = "<group>"; };
-		98116B0B517CD8FD02C1E4B1DC9266B6 /* on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "on@2x.png"; path = "TTConsole/Assets/Resource/on@2x.png"; sourceTree = "<group>"; };
-		9AD1E8C604166C350C69BE1B3FBD6ABC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9729AF71ADA9630351B1DF6612F1E170 /* TTURLSessionHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTURLSessionHook.h; path = TTConsole/Http/TTURLSessionHook.h; sourceTree = "<group>"; };
 		9B86D764459D3DEEC01E736A12895213 /* Resource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Resource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA216629A7529B075F3AC826470B254 /* libfishhook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libfishhook.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D71CDDA5B88EE8CE83142C520A260D3 /* TTLogViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTLogViewController.h; path = TTConsole/Log/TTLogViewController.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A00B4477A03A82F7C8EE158B837F3D42 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		A1A2E659B7092678EC84ED6386550AAB /* NSURLRequest+DataExt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+DataExt.m"; path = "TTConsole/Http/NSURLRequest+DataExt.m"; sourceTree = "<group>"; };
 		A1ED15FE10B0503AE06C0D762D3C5197 /* YTKBatchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKBatchRequest.h; path = YTKNetwork/YTKBatchRequest.h; sourceTree = "<group>"; };
+		A26AE5190B95627F89E726DE84F9E220 /* ResourceBundle-Resource-TTConsole-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Resource-TTConsole-Info.plist"; sourceTree = "<group>"; };
 		A492C6E606ADEA1B21C9F49CDF0BEFAE /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6177E1CD9B11BA92DFF5646DB9B119A /* fishhook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fishhook-prefix.pch"; sourceTree = "<group>"; };
-		A6FA1520D8D91E844503EA5F6F59C598 /* TTEnvViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTEnvViewController.h; path = TTConsole/Classes/Env/TTEnvViewController.h; sourceTree = "<group>"; };
+		A6C1566E586BA5162D25628343F470FB /* TTTextPreViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTTextPreViewController.h; path = TTConsole/Sandbox/TTTextPreViewController.h; sourceTree = "<group>"; };
+		A81D61425560E41DDBE6E5F83B0F3A36 /* TTHttpViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTHttpViewController.m; path = TTConsole/Http/TTHttpViewController.m; sourceTree = "<group>"; };
+		A879AF69C8936821B50A84AD69216C01 /* TTCrashStackTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTCrashStackTableViewCell.m; path = TTConsole/Crash/TTCrashStackTableViewCell.m; sourceTree = "<group>"; };
 		ABC83ADEDCA242FC11E5F0558F4CD0CA /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		ADBAFBE65F8A32FCE9A802200A080708 /* TTConsole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTConsole.h; path = TTConsole/Classes/TTConsole.h; sourceTree = "<group>"; };
+		AD0540D70F84801EEF5E5FBD5167F5F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AFCC6DAFA80CC00AFB326914D3315160 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		B124811F094012B77890AF5BD4BEC0E6 /* TTLogViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTLogViewController.h; path = TTConsole/Classes/Log/TTLogViewController.h; sourceTree = "<group>"; };
 		B17D4720574EEF4EE9C586378A916290 /* YTKNetworkAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKNetworkAgent.h; path = YTKNetwork/YTKNetworkAgent.h; sourceTree = "<group>"; };
 		B2AF999B958DAC066BFE62499EEBAFD8 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		B2DB64441B4614B6320B352C34D315B5 /* NSURLRequest+DataExt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+DataExt.m"; path = "TTConsole/Classes/Http/NSURLRequest+DataExt.m"; sourceTree = "<group>"; };
 		B317D3BC095B0E4CB89857E03DAD9F0F /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		B583663653F34DFA866B431BBEA22267 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		B75400D85AA6BF655E30CFA6FFABBED0 /* TTLogViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTLogViewController.m; path = TTConsole/Classes/Log/TTLogViewController.m; sourceTree = "<group>"; };
 		B9EC461B232578B0E801A6E78805A732 /* YTKBatchRequestAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKBatchRequestAgent.m; path = YTKNetwork/YTKBatchRequestAgent.m; sourceTree = "<group>"; };
+		BA21CD734900AE298AA4AB4570F80504 /* file@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "file@2x.png"; path = "TTConsole/Assets/Resource/file@2x.png"; sourceTree = "<group>"; };
+		BCD8B3F0B1E4ABAC7FF8276AABC6FE51 /* TTEnvTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTEnvTableViewCell.m; path = TTConsole/Env/TTEnvTableViewCell.m; sourceTree = "<group>"; };
 		BF029CF681B7669D274612A1F7C47F9B /* Pods-TTConsole_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTConsole_Example-resources.sh"; sourceTree = "<group>"; };
+		C13B4E4EB89BDA212139969DA8BB886D /* on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "on@2x.png"; path = "TTConsole/Assets/Resource/on@2x.png"; sourceTree = "<group>"; };
 		C1725AA17D765358F4E70C1DEB89175B /* YTKNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YTKNetwork-dummy.m"; sourceTree = "<group>"; };
 		C6F0C3DD9DCCF003331316004DCF5630 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		C96C053235997CE904730E5B267E85C7 /* YTKChainRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKChainRequest.h; path = YTKNetwork/YTKChainRequest.h; sourceTree = "<group>"; };
+		C97DAEBEDB13006F4CA3BB4E40CC5E52 /* TTConsoleWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTConsoleWindow.m; path = TTConsole/Console/TTConsoleWindow.m; sourceTree = "<group>"; };
 		CBA5FDA869876554795D9FD28E2FC0B8 /* YTKRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKRequest.h; path = YTKNetwork/YTKRequest.h; sourceTree = "<group>"; };
 		CBBA176F1B415565E2587302842B0742 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		CEE13C2A5549CAAC68F5E85784D9C87F /* TTHttpDetailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTHttpDetailViewController.h; path = TTConsole/Classes/Http/TTHttpDetailViewController.h; sourceTree = "<group>"; };
 		CF7980EDA3A51E11DC4BE2D95A60DF29 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		CF8955E6D83EED8B04BEB5916D0772CA /* back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "back@2x.png"; path = "TTConsole/Assets/Resource/back@2x.png"; sourceTree = "<group>"; };
 		D0733127E0D7B2D1907D4CD82D3432B9 /* YTKRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKRequest.m; path = YTKNetwork/YTKRequest.m; sourceTree = "<group>"; };
 		D291760FADAF36E5AF7707709A5FE15D /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		D320380F91871956B503FE69652972FD /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
-		D35DE0AFC0CA8BEBFACAAF63C87905A6 /* TTConsole.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TTConsole.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D39868284F55445313E9603448C3C4A9 /* TTCrashHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTCrashHelper.m; path = TTConsole/Classes/Crash/TTCrashHelper.m; sourceTree = "<group>"; };
-		D49036ADDFB6A5064C0BA24B29FF6BA9 /* TTSandboxViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTSandboxViewController.h; path = TTConsole/Classes/Sandbox/TTSandboxViewController.h; sourceTree = "<group>"; };
-		D5AA6760F43120993C095190EF341CD3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		D64F453E517EA6755BC1D47C57E2889E /* TTEnvViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTEnvViewController.m; path = TTConsole/Classes/Env/TTEnvViewController.m; sourceTree = "<group>"; };
+		D5536D191ADB74453B02E1563A612854 /* TTHttpDetailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTHttpDetailViewController.h; path = TTConsole/Http/TTHttpDetailViewController.h; sourceTree = "<group>"; };
 		D669982314A008646BD577CF046A6AA1 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		D832D9F7CE3D90D7BA7ED25F18960CBA /* TTLogHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTLogHelper.h; path = TTConsole/Classes/Log/TTLogHelper.h; sourceTree = "<group>"; };
-		D974E8F004FE153FC9D201D103AAE5B3 /* delete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "delete@2x.png"; path = "TTConsole/Assets/Resource/delete@2x.png"; sourceTree = "<group>"; };
+		D6AAFCDA97F7C65E26548A81841D73AC /* TTConsole.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTConsole.xcconfig; sourceTree = "<group>"; };
 		DA5D6CAEB3AD494A702A9D2E3597BAB2 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		DB8CA73EE8BC6574C5758E92CD4AEFBA /* TTLogHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTLogHelper.m; path = TTConsole/Classes/Log/TTLogHelper.m; sourceTree = "<group>"; };
-		DC64FB5B7436CDD8D7741DAA06D5D33E /* TTHttpViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTHttpViewController.m; path = TTConsole/Classes/Http/TTHttpViewController.m; sourceTree = "<group>"; };
+		DB710F50F8DCCB88BF562F7A63D4ECE6 /* TTCrashDetailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTCrashDetailViewController.m; path = TTConsole/Crash/TTCrashDetailViewController.m; sourceTree = "<group>"; };
+		DE278DC506FA481B2D63DFC66F64A7E1 /* TTImgPreViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTImgPreViewController.m; path = TTConsole/Sandbox/TTImgPreViewController.m; sourceTree = "<group>"; };
 		DFEBE8158749EE5B64F401821C526EA2 /* YTKNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKNetwork.h; path = YTKNetwork/YTKNetwork.h; sourceTree = "<group>"; };
-		E0DB540BAB6BAA70E9E0ECB6EB23B3B9 /* TTCrashStackTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTCrashStackTableViewCell.h; path = TTConsole/Classes/Crash/TTCrashStackTableViewCell.h; sourceTree = "<group>"; };
+		E1E1EB9281A42AF7A847C0A3B252C4D0 /* TTCrashHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTCrashHelper.m; path = TTConsole/Crash/TTCrashHelper.m; sourceTree = "<group>"; };
+		E2079ABEF98A10E0F97E9AA9E825F32F /* TTCrashViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTCrashViewController.m; path = TTConsole/Crash/TTCrashViewController.m; sourceTree = "<group>"; };
 		E2C0D01AA8226A7F41B6A1F7BC0D44DA /* YTKNetworkAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKNetworkAgent.m; path = YTKNetwork/YTKNetworkAgent.m; sourceTree = "<group>"; };
 		E411B83D26A21A6394C29A7981AC8446 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		E4C286DE186C4DE94CF1CFC50FDDDDDF /* TTLogHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTLogHelper.h; path = TTConsole/Log/TTLogHelper.h; sourceTree = "<group>"; };
 		E6329AE0C06CAE220455FCFA50120E7C /* Pods-TTConsole_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTConsole_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E6607DE8726AA417E37CB7B3D86348BF /* TTConsole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTConsole.m; path = TTConsole/Classes/TTConsole.m; sourceTree = "<group>"; };
-		E7AFD4FDCB0F93944A98B0B0915051E8 /* TTURLSessionHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTURLSessionHook.h; path = TTConsole/Classes/Http/TTURLSessionHook.h; sourceTree = "<group>"; };
 		E82E0E639E4F84701F2A86FD4AF6DD33 /* YTKNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YTKNetwork.xcconfig; sourceTree = "<group>"; };
 		EB05D032F0F934748A9AB1EA932E3248 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		EBB08715786FF75E9B2AD1D7F6E96181 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		F20812723D2608F5800C57E86C9CBE4E /* TTHttpViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTHttpViewController.h; path = TTConsole/Classes/Http/TTHttpViewController.h; sourceTree = "<group>"; };
+		EE7BB04AC1A9AE2FED55382854B99CD8 /* folder@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "folder@2x.png"; path = "TTConsole/Assets/Resource/folder@2x.png"; sourceTree = "<group>"; };
+		F138B53958E8E23390C5081203D2971A /* TTSandboxViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTSandboxViewController.h; path = TTConsole/Sandbox/TTSandboxViewController.h; sourceTree = "<group>"; };
 		F22F61624AFF89DB293F02A0F109AA4F /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		F4C6F107A4A22E8B1341567E651282CA /* TTEnvTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTEnvTableViewCell.m; path = TTConsole/Classes/Env/TTEnvTableViewCell.m; sourceTree = "<group>"; };
-		F6FA32F88ACF58FF9AB2AF4FBAE4348E /* TTURLProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTURLProtocol.m; path = TTConsole/Classes/Http/TTURLProtocol.m; sourceTree = "<group>"; };
+		F2D24C84CC7E3792D97B0D05CF9BF4CB /* TTCrashViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTCrashViewController.h; path = TTConsole/Crash/TTCrashViewController.h; sourceTree = "<group>"; };
+		F3063B5D2C9F7CC78A08F16C452AEE02 /* NSURLSessionTask+Hook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSessionTask+Hook.h"; path = "TTConsole/Http/NSURLSessionTask+Hook.h"; sourceTree = "<group>"; };
 		F80A96FD421E81126B16C33940B89A5A /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		FA7C9315C980ABBF365E5447BFA009F7 /* NSURLSessionTask+Hook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLSessionTask+Hook.m"; path = "TTConsole/Classes/Http/NSURLSessionTask+Hook.m"; sourceTree = "<group>"; };
 		FAF25B0E3176EA2062C5EB1CAF570D27 /* Pods-TTConsole_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTConsole_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC04C4399E62CD6DF291BABD77426752 /* TTConsole-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTConsole-dummy.m"; sourceTree = "<group>"; };
+		FC7D41E251D33F6F3AE97BA75F2F3B64 /* TTURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTURLProtocol.h; path = TTConsole/Http/TTURLProtocol.h; sourceTree = "<group>"; };
 		FDB6B65D9EB46F577CED3B21B082131B /* YTKBatchRequestAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKBatchRequestAgent.h; path = YTKNetwork/YTKBatchRequestAgent.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04DCFD2CD8EA06E6B9EC64CE9D56BBBA /* Frameworks */ = {
+		1C3FE4FE48451B61140B7E9DDDE4674D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -356,14 +360,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C49AC9DD12977A2A6987F812DD1A3164 /* Frameworks */ = {
+		E0A8684319DE689FCE16281A8D0B9C28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5602A4DF4394A15B668F110D4AB0F0A /* Frameworks */ = {
+		F6154E77447748FE09C2D0B00E247639 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -381,31 +385,6 @@
 				A130EBD1948B44E8FF1183D7685DB26B /* Support Files */,
 			);
 			path = fishhook;
-			sourceTree = "<group>";
-		};
-		05AE070291C7653653D165B42FD187AE /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				CF8955E6D83EED8B04BEB5916D0772CA /* back@2x.png */,
-				57E47E8CB289C68F3BFDD17BF79B1B0B /* close@2x.png */,
-				D974E8F004FE153FC9D201D103AAE5B3 /* delete@2x.png */,
-				25A93E6F789FC97423902957F988C26F /* file@2x.png */,
-				57B9582ECB5657E566C7B8DB2401CDD2 /* folder@2x.png */,
-				1CD28E1A96F74983417B480945C62B0D /* off@2x.png */,
-				98116B0B517CD8FD02C1E4B1DC9266B6 /* on@2x.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		0ADE7DEF2757125F2277A06ABFF734A7 /* Console */ = {
-			isa = PBXGroup;
-			children = (
-				7E18E7F59F302AB35BF4A07E1FC68C4F /* TTConsoleController.h */,
-				143D251A7B19189846A0D6D0360B2F40 /* TTConsoleController.m */,
-				02B773C328A293736EEFD19B8A5A3276 /* TTConsoleWindow.h */,
-				3AD2F0B5617E6DE85E88140814E8C027 /* TTConsoleWindow.m */,
-			);
-			name = Console;
 			sourceTree = "<group>";
 		};
 		11CD95BC62C0852E1B7B5F497AFE815A /* Pods-TTConsole_Example */ = {
@@ -440,18 +419,6 @@
 				C6F0C3DD9DCCF003331316004DCF5630 /* AFNetworkReachabilityManager.m */,
 			);
 			name = Reachability;
-			sourceTree = "<group>";
-		};
-		18DEB508EF44B9DD3A7E69DC887963F7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				47D5994E5B1D716C60AE0D428E4DBE4B /* ResourceBundle-Resource-TTConsole-Info.plist */,
-				76A3BB912E97C54BD0362588FC91E455 /* TTConsole.xcconfig */,
-				54FCCE2A67DB1D43201E34694E1FF42B /* TTConsole-dummy.m */,
-				531146E6E3D2CA5CF7778E81778BF191 /* TTConsole-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TTConsole";
 			sourceTree = "<group>";
 		};
 		228547D6753D1DF201F7197F5896C384 /* NSURLSession */ = {
@@ -511,17 +478,6 @@
 			path = YTKNetwork;
 			sourceTree = "<group>";
 		};
-		5B5FEF5102E42EA5C768FC67DBC973FA /* Log */ = {
-			isa = PBXGroup;
-			children = (
-				D832D9F7CE3D90D7BA7ED25F18960CBA /* TTLogHelper.h */,
-				DB8CA73EE8BC6574C5758E92CD4AEFBA /* TTLogHelper.m */,
-				B124811F094012B77890AF5BD4BEC0E6 /* TTLogViewController.h */,
-				B75400D85AA6BF655E30CFA6FFABBED0 /* TTLogViewController.m */,
-			);
-			name = Log;
-			sourceTree = "<group>";
-		};
 		623135FB3CB35E83C9C71217CDAD6A55 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -533,25 +489,40 @@
 			path = "../Target Support Files/YTKNetwork";
 			sourceTree = "<group>";
 		};
-		713406C9144D24E5F9BC63E879ECC51A /* Pod */ = {
+		65E519F1AECF17EC9C547D4EBC133EB8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D5AA6760F43120993C095190EF341CD3 /* LICENSE */,
-				9AD1E8C604166C350C69BE1B3FBD6ABC /* README.md */,
-				D35DE0AFC0CA8BEBFACAAF63C87905A6 /* TTConsole.podspec */,
+				AD0540D70F84801EEF5E5FBD5167F5F4 /* LICENSE */,
+				7341EA82D1B9FDCE915724563BDDB660 /* README.md */,
+				0963A940D3FDF4F9F68D1906AA37AB41 /* TTConsole.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		7B1A8D2B7C4E17B1E6FCE54B7034EFCB /* Env */ = {
+		690B6F078094C15F98122A1764BEB4F4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				67E9D629F38F86627E7A85B19AFB9110 /* TTEnvTableViewCell.h */,
-				F4C6F107A4A22E8B1341567E651282CA /* TTEnvTableViewCell.m */,
-				A6FA1520D8D91E844503EA5F6F59C598 /* TTEnvViewController.h */,
-				D64F453E517EA6755BC1D47C57E2889E /* TTEnvViewController.m */,
+				7347CE5030DC349FE945BBC6122166FB /* back@2x.png */,
+				328B1FCA26E996E5013299D44771462B /* close@2x.png */,
+				342D72E59D2752BBE6E9DBAB5528AA81 /* delete@2x.png */,
+				BA21CD734900AE298AA4AB4570F80504 /* file@2x.png */,
+				EE7BB04AC1A9AE2FED55382854B99CD8 /* folder@2x.png */,
+				03E3DF15F43E551EE545A02D19939DB8 /* off@2x.png */,
+				C13B4E4EB89BDA212139969DA8BB886D /* on@2x.png */,
 			);
-			name = Env;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8BB515DB3808DEC4DBF5A8C79F74D897 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A26AE5190B95627F89E726DE84F9E220 /* ResourceBundle-Resource-TTConsole-Info.plist */,
+				D6AAFCDA97F7C65E26548A81841D73AC /* TTConsole.xcconfig */,
+				FC04C4399E62CD6DF291BABD77426752 /* TTConsole-dummy.m */,
+				1FD3B3D4E8272139E2054E1EF0E5EC90 /* TTConsole-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TTConsole";
 			sourceTree = "<group>";
 		};
 		8C990DE08922620AC79AAFF416BABB01 /* UIKit */ = {
@@ -581,6 +552,30 @@
 			name = UIKit;
 			sourceTree = "<group>";
 		};
+		94549A54DBD3670711BAE554B65E1CCB /* Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				5D7745319F6CA90D52DED9637D8AAA2B /* TTImgPreViewController.h */,
+				DE278DC506FA481B2D63DFC66F64A7E1 /* TTImgPreViewController.m */,
+				F138B53958E8E23390C5081203D2971A /* TTSandboxViewController.h */,
+				7B119647F68F57E98AF8D9510664E6EF /* TTSandboxViewController.m */,
+				A6C1566E586BA5162D25628343F470FB /* TTTextPreViewController.h */,
+				0B4B0964710FD184A151DD6DD25851D1 /* TTTextPreViewController.m */,
+			);
+			name = Sandbox;
+			sourceTree = "<group>";
+		};
+		9DBB57439AA25904250331F1C05FAD03 /* Console */ = {
+			isa = PBXGroup;
+			children = (
+				30E097B3183C0D5F24C5A5B7273581E6 /* TTConsoleController.h */,
+				44BC510D87C109C97CD987313F640DE1 /* TTConsoleController.m */,
+				39E9B96698D0D3DA2B89CBF816A7170E /* TTConsoleWindow.h */,
+				C97DAEBEDB13006F4CA3BB4E40CC5E52 /* TTConsoleWindow.m */,
+			);
+			name = Console;
+			sourceTree = "<group>";
+		};
 		9E60C96858704B34AA9C2C47F9146FA4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -602,12 +597,40 @@
 			path = "../Target Support Files/fishhook";
 			sourceTree = "<group>";
 		};
+		A21EF34DF20E6B899BE7862587013CDF /* Env */ = {
+			isa = PBXGroup;
+			children = (
+				6CBD9A5C22AD02BE00636270 /* TTEnvHelper.h */,
+				6CBD9A5D22AD02BE00636270 /* TTEnvHelper.m */,
+				2859BCBDF028AA8EC46E83553104DCF0 /* TTEnvTableViewCell.h */,
+				BCD8B3F0B1E4ABAC7FF8276AABC6FE51 /* TTEnvTableViewCell.m */,
+				921BEEACF309A79A00AC45D9862F0EB8 /* TTEnvViewController.h */,
+				7E422C02F2194BE322BF73CA1DF9C911 /* TTEnvViewController.m */,
+			);
+			name = Env;
+			sourceTree = "<group>";
+		};
 		A6ACFFC865232611937EF36439D49738 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BC2533E297B558B95B41F455335B80BC /* TTConsole */,
+				C445A4B15EF6CE57F1B4DF1BA94C9C14 /* TTConsole */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A8B3A787099DA8A325B9B07D7B12953A /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				43E9DFAEB953D154ACF394AD2E6E21A4 /* TTCrashDetailViewController.h */,
+				DB710F50F8DCCB88BF562F7A63D4ECE6 /* TTCrashDetailViewController.m */,
+				47B366FB06FCE27FAD2E80C7575D33B5 /* TTCrashHelper.h */,
+				E1E1EB9281A42AF7A847C0A3B252C4D0 /* TTCrashHelper.m */,
+				547E9DEF4874028E705701DBB99D6916 /* TTCrashStackTableViewCell.h */,
+				A879AF69C8936821B50A84AD69216C01 /* TTCrashStackTableViewCell.m */,
+				F2D24C84CC7E3792D97B0D05CF9BF4CB /* TTCrashViewController.h */,
+				E2079ABEF98A10E0F97E9AA9E825F32F /* TTCrashViewController.m */,
+			);
+			name = Crash;
 			sourceTree = "<group>";
 		};
 		A8DB22F2B4DB771236A6E05B9E9B0EF3 /* AFNetworking */ = {
@@ -624,59 +647,15 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
-		A9B110F54321C2089DA2D1CB7FAEC790 /* Crash */ = {
+		ADA4451B8D1BD5FAAF663AE6F29887A4 /* Log */ = {
 			isa = PBXGroup;
 			children = (
-				6FFFE9076BBF1F163DB2984BE0F10586 /* TTCrashDetailViewController.h */,
-				741B51D1E47547666E03106DADDE05E8 /* TTCrashDetailViewController.m */,
-				55FEDDB513789C5F1A127E6F6361C57E /* TTCrashHelper.h */,
-				D39868284F55445313E9603448C3C4A9 /* TTCrashHelper.m */,
-				E0DB540BAB6BAA70E9E0ECB6EB23B3B9 /* TTCrashStackTableViewCell.h */,
-				596A5BEBB48A702D389F21ACB27F6BA8 /* TTCrashStackTableViewCell.m */,
-				0B82EBB809BC9A3F6DB2FB92A956C1BB /* TTCrashViewController.h */,
-				7DB4041643BA9B5D90A360F6B179F10C /* TTCrashViewController.m */,
+				E4C286DE186C4DE94CF1CFC50FDDDDDF /* TTLogHelper.h */,
+				0C2008A953152DAFE95EF43EFBC2B22F /* TTLogHelper.m */,
+				9D71CDDA5B88EE8CE83142C520A260D3 /* TTLogViewController.h */,
+				876E93E1CE60D101FF275B12D6DF539C /* TTLogViewController.m */,
 			);
-			name = Crash;
-			sourceTree = "<group>";
-		};
-		B51F0B2A0CE3434CF14BE0EA792C1C7F /* Http */ = {
-			isa = PBXGroup;
-			children = (
-				9601324DD09B894144DB3EB53465E040 /* NSURLRequest+DataExt.h */,
-				B2DB64441B4614B6320B352C34D315B5 /* NSURLRequest+DataExt.m */,
-				1A14157F5944156B5FC92F4CDB854D95 /* NSURLSessionTask+Hook.h */,
-				FA7C9315C980ABBF365E5447BFA009F7 /* NSURLSessionTask+Hook.m */,
-				CEE13C2A5549CAAC68F5E85784D9C87F /* TTHttpDetailViewController.h */,
-				88BC57FD489FA06CCAEBF1F790C8B8B8 /* TTHttpDetailViewController.m */,
-				6791BE2C29858DC37AEF203C39F9435A /* TTHttpHelper.h */,
-				5B12DDDDB1B46EC21EBB899174DBEBD9 /* TTHttpHelper.m */,
-				F20812723D2608F5800C57E86C9CBE4E /* TTHttpViewController.h */,
-				DC64FB5B7436CDD8D7741DAA06D5D33E /* TTHttpViewController.m */,
-				545422264B3CD8BC5058B9C179302AEE /* TTURLProtocol.h */,
-				F6FA32F88ACF58FF9AB2AF4FBAE4348E /* TTURLProtocol.m */,
-				E7AFD4FDCB0F93944A98B0B0915051E8 /* TTURLSessionHook.h */,
-				92B99EFA4AAFBD99DBD0397B78FA0961 /* TTURLSessionHook.m */,
-			);
-			name = Http;
-			sourceTree = "<group>";
-		};
-		BC2533E297B558B95B41F455335B80BC /* TTConsole */ = {
-			isa = PBXGroup;
-			children = (
-				ADBAFBE65F8A32FCE9A802200A080708 /* TTConsole.h */,
-				E6607DE8726AA417E37CB7B3D86348BF /* TTConsole.m */,
-				0ADE7DEF2757125F2277A06ABFF734A7 /* Console */,
-				A9B110F54321C2089DA2D1CB7FAEC790 /* Crash */,
-				7B1A8D2B7C4E17B1E6FCE54B7034EFCB /* Env */,
-				B51F0B2A0CE3434CF14BE0EA792C1C7F /* Http */,
-				5B5FEF5102E42EA5C768FC67DBC973FA /* Log */,
-				713406C9144D24E5F9BC63E879ECC51A /* Pod */,
-				05AE070291C7653653D165B42FD187AE /* Resources */,
-				E94D11F67D8FD5E7B433A9E37F830A60 /* Sandbox */,
-				18DEB508EF44B9DD3A7E69DC887963F7 /* Support Files */,
-			);
-			name = TTConsole;
-			path = ../..;
+			name = Log;
 			sourceTree = "<group>";
 		};
 		C246CCE212534A2B410868AC4A9D7D22 /* Pods-TTConsole_Tests */ = {
@@ -690,6 +669,25 @@
 			);
 			name = "Pods-TTConsole_Tests";
 			path = "Target Support Files/Pods-TTConsole_Tests";
+			sourceTree = "<group>";
+		};
+		C445A4B15EF6CE57F1B4DF1BA94C9C14 /* TTConsole */ = {
+			isa = PBXGroup;
+			children = (
+				35CD4E06BCD282C6BE21826BD747FD7C /* TTConsole.h */,
+				806937E884BE0F8D5C0CF78C33E9EFEF /* TTConsole.m */,
+				9DBB57439AA25904250331F1C05FAD03 /* Console */,
+				A8B3A787099DA8A325B9B07D7B12953A /* Crash */,
+				A21EF34DF20E6B899BE7862587013CDF /* Env */,
+				F928ACACAA10575353F4E7EFE195271E /* Http */,
+				ADA4451B8D1BD5FAAF663AE6F29887A4 /* Log */,
+				65E519F1AECF17EC9C547D4EBC133EB8 /* Pod */,
+				690B6F078094C15F98122A1764BEB4F4 /* Resources */,
+				94549A54DBD3670711BAE554B65E1CCB /* Sandbox */,
+				8BB515DB3808DEC4DBF5A8C79F74D897 /* Support Files */,
+			);
+			name = TTConsole;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -725,19 +723,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E94D11F67D8FD5E7B433A9E37F830A60 /* Sandbox */ = {
-			isa = PBXGroup;
-			children = (
-				96E3E084AC5A6D0B9C4CD7095EEECBFD /* TTImgPreViewController.h */,
-				8FA80525F620EEBF88BA565E980DE5B9 /* TTImgPreViewController.m */,
-				D49036ADDFB6A5064C0BA24B29FF6BA9 /* TTSandboxViewController.h */,
-				5B66104826A9BB642C80101BD946A6FE /* TTSandboxViewController.m */,
-				59CC45E5144876B9834C0E60544EAD68 /* TTTextPreViewController.h */,
-				13405B179E13AEBF461946EEEFAEA1A2 /* TTTextPreViewController.m */,
-			);
-			name = Sandbox;
-			sourceTree = "<group>";
-		};
 		F5D492B5C421FA65894DFB2CE8DA27D7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -749,14 +734,35 @@
 			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
+		F928ACACAA10575353F4E7EFE195271E /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				4CA4978618C2D96C07051385267FC7E5 /* NSURLRequest+DataExt.h */,
+				A1A2E659B7092678EC84ED6386550AAB /* NSURLRequest+DataExt.m */,
+				F3063B5D2C9F7CC78A08F16C452AEE02 /* NSURLSessionTask+Hook.h */,
+				7E0F6ADFB0452F82A211EB19370EF431 /* NSURLSessionTask+Hook.m */,
+				D5536D191ADB74453B02E1563A612854 /* TTHttpDetailViewController.h */,
+				64DE4AB187C91B7BA3E33D9922C88EF7 /* TTHttpDetailViewController.m */,
+				3EBF1B333CE9CBD58C4A16D3E5125959 /* TTHttpHelper.h */,
+				5AAD85885D661DD079ED3BFDFA5BF7D6 /* TTHttpHelper.m */,
+				909912DCC8773F0B1CC564BC57936A51 /* TTHttpViewController.h */,
+				A81D61425560E41DDBE6E5F83B0F3A36 /* TTHttpViewController.m */,
+				FC7D41E251D33F6F3AE97BA75F2F3B64 /* TTURLProtocol.h */,
+				5D9C2158298BCD9EC6E50EBD22CAEC34 /* TTURLProtocol.m */,
+				9729AF71ADA9630351B1DF6612F1E170 /* TTURLSessionHook.h */,
+				88C7A05B5FE0E035A8141EA335FA639F /* TTURLSessionHook.m */,
+			);
+			name = Http;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		08C1A008718A82FD98154427BA112B58 /* Headers */ = {
+		0CF2F1E72462CB9ED5E683469C4FB751 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4DFEF418BF9138043AA81B43A5695E2 /* fishhook.h in Headers */,
+				D52DD1FE750FEFE0BB85B6102085C765 /* fishhook.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -787,37 +793,10 @@
 				A0BCE0D858AC48B66BE008DCABC4679B /* UIImage+AFNetworking.h in Headers */,
 				8D297BE6235A17D484992B5730D47E6E /* UIImageView+AFNetworking.h in Headers */,
 				26CBC98247054E50A07D0CCC9BE72659 /* UIKit+AFNetworking.h in Headers */,
+				6CBD9A5E22AD02BE00636270 /* TTEnvHelper.h in Headers */,
 				62FEBCE2A7101824E8D4516B1DF3321B /* UIProgressView+AFNetworking.h in Headers */,
 				1C5C60929DEFB4E1CF551244892D7C38 /* UIRefreshControl+AFNetworking.h in Headers */,
 				437F130D8474FC390E16B98D714B01DD /* UIWebView+AFNetworking.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D7EB619EF6019E9DAE68555E4A76BE5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74CB1421F137AAA3A54781A62DC0D083 /* NSURLRequest+DataExt.h in Headers */,
-				3C98FD5D05DEC3EE693748A0D6DB1937 /* NSURLSessionTask+Hook.h in Headers */,
-				B9FC4823C26624E6D9A5C921B304C26D /* TTConsole.h in Headers */,
-				AA6C504DBC1246A6DB03EB32A1AFC2DE /* TTConsoleController.h in Headers */,
-				35C3776DCB0FA164BF0A2A535CAED1A1 /* TTConsoleWindow.h in Headers */,
-				285E7F4B05258A3EC5C4BE9A1A6B93A5 /* TTCrashDetailViewController.h in Headers */,
-				42FFE239191A8249D850E339419DD25D /* TTCrashHelper.h in Headers */,
-				DAFABE3F657189B8C1AFEF4BBDA7BCD2 /* TTCrashStackTableViewCell.h in Headers */,
-				C393984B162105A3129A961ADA65A46E /* TTCrashViewController.h in Headers */,
-				D85EF7080BB7494D7BF08FB4E0AD713E /* TTEnvTableViewCell.h in Headers */,
-				3F728487EA7126145EF4AD97366F8A65 /* TTEnvViewController.h in Headers */,
-				4D5018D8243C88E293132C5AE8A28C93 /* TTHttpDetailViewController.h in Headers */,
-				79CACD398A0B72F568F76D91A66698B8 /* TTHttpHelper.h in Headers */,
-				089D7D13ECF9E76716513EDC1B79A45E /* TTHttpViewController.h in Headers */,
-				F362E2C8E2D019F5D73E43E77BCE5F95 /* TTImgPreViewController.h in Headers */,
-				EE1F6BE67EAA508FD5A3C690101B5993 /* TTLogHelper.h in Headers */,
-				3914D211079E6880CB014ED6D9FC6717 /* TTLogViewController.h in Headers */,
-				2CC64ABCD7C4F348FC9062F9FC853BF1 /* TTSandboxViewController.h in Headers */,
-				C9FA75C4545455CA82E3F219ED60AB3C /* TTTextPreViewController.h in Headers */,
-				0C1395A1D79476AA1802A7CCED10FFC1 /* TTURLProtocol.h in Headers */,
-				F589CDAABD94722CA5E2EB1A85B07FDB /* TTURLSessionHook.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -842,6 +821,34 @@
 				BC7926CEF60D4B871D0B80042F4F1030 /* YTKNetworkConfig.h in Headers */,
 				39DB268ADE5E9D6449E09959A18D7583 /* YTKNetworkPrivate.h in Headers */,
 				8BB5C698E7E0C9B807FE12543C4BF030 /* YTKRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49E8B1F666B20B511751986A08C2030 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9E1C46C6C37F0D0CC9D9DBC56DD69F /* NSURLRequest+DataExt.h in Headers */,
+				99A0C787EC7F2F79B43204A77035109F /* NSURLSessionTask+Hook.h in Headers */,
+				A4EF433152813AF25712FE1C7352C685 /* TTConsole.h in Headers */,
+				1D2B28E49E8F5D9421B208DFD31BDD71 /* TTConsoleController.h in Headers */,
+				3A69DFC38A3581D227C0E472C15815FB /* TTConsoleWindow.h in Headers */,
+				98E6E223D48E261A2B435ADAD8272F0F /* TTCrashDetailViewController.h in Headers */,
+				1D67C9439250EB3932976EC466D28D56 /* TTCrashHelper.h in Headers */,
+				B02590F1EE0145BF44D6D3364945DF91 /* TTCrashStackTableViewCell.h in Headers */,
+				AA5237077F15124875BE089D908FD1B9 /* TTCrashViewController.h in Headers */,
+				8E0C555433A05BCB149C29C6EF9FF174 /* TTEnvTableViewCell.h in Headers */,
+				D6EAAFB72CDE366FCF0733B8558F30FC /* TTEnvViewController.h in Headers */,
+				FC649E6DA5EEC00B12B2492D4607AE64 /* TTHttpDetailViewController.h in Headers */,
+				D8C8D88D69CC7B667812C97AEC755003 /* TTHttpHelper.h in Headers */,
+				0630AD9F28B522B59E0C225A8061289B /* TTHttpViewController.h in Headers */,
+				B2D05BD984F01D0CDE533AFBC82EFC38 /* TTImgPreViewController.h in Headers */,
+				89F056FD165165AC0506E5418DE20D1E /* TTLogHelper.h in Headers */,
+				ECBDFC3F70A89A5BA1EA06CB95E4BA53 /* TTLogViewController.h in Headers */,
+				0D771AD1652282A3C35DF8BB7AA88F00 /* TTSandboxViewController.h in Headers */,
+				56B849891253B7226CA3DA03E89E0667 /* TTTextPreViewController.h in Headers */,
+				A39648697A4B903D9FAAB2C1D52515AA /* TTURLProtocol.h in Headers */,
+				17F70A375636F288304C9E4EBF206BD6 /* TTURLSessionHook.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -885,11 +892,11 @@
 		};
 		58CAF5B0291DAB42086F0645150E1791 /* fishhook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C71F3C7D441C9E55D41F2E4BC8761D11 /* Build configuration list for PBXNativeTarget "fishhook" */;
+			buildConfigurationList = CC44B0F1F04C4442136AC8C38FC9CF1C /* Build configuration list for PBXNativeTarget "fishhook" */;
 			buildPhases = (
-				08C1A008718A82FD98154427BA112B58 /* Headers */,
-				31303B4FDBB277CDCB0A841BD5619B48 /* Sources */,
-				04DCFD2CD8EA06E6B9EC64CE9D56BBBA /* Frameworks */,
+				0CF2F1E72462CB9ED5E683469C4FB751 /* Headers */,
+				82BB2057450304F7E4AC454C4B643ACE /* Sources */,
+				1C3FE4FE48451B61140B7E9DDDE4674D /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -902,11 +909,11 @@
 		};
 		6D17FAFC31BF4D75D92E38D8E07BAE38 /* TTConsole-Resource */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79CF728ADFD20E52BF22851F09C2D048 /* Build configuration list for PBXNativeTarget "TTConsole-Resource" */;
+			buildConfigurationList = 32E0E37B3A5E0FD41AADCD970FBBD9FC /* Build configuration list for PBXNativeTarget "TTConsole-Resource" */;
 			buildPhases = (
-				A6D349A021576CC202193D7F8DC41E05 /* Sources */,
-				C49AC9DD12977A2A6987F812DD1A3164 /* Frameworks */,
-				0592BC3A228301BF4D1BB04C0F668F81 /* Resources */,
+				B710D546E25D52198E198FF0AF0BD693 /* Sources */,
+				F6154E77447748FE09C2D0B00E247639 /* Frameworks */,
+				F285991990D7005803FF4718CC5CA4D9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -958,17 +965,17 @@
 		};
 		EB941BB374314E1D7FC9910AEC5CC553 /* TTConsole */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 155598AEDE1C4C4E2EDA567E64CA8F3D /* Build configuration list for PBXNativeTarget "TTConsole" */;
+			buildConfigurationList = 9460B116FAC72AD8B308732907BABD61 /* Build configuration list for PBXNativeTarget "TTConsole" */;
 			buildPhases = (
-				5D7EB619EF6019E9DAE68555E4A76BE5 /* Headers */,
-				0586FF08B15A0E5C20BC5AEC5F859063 /* Sources */,
-				D5602A4DF4394A15B668F110D4AB0F0A /* Frameworks */,
+				D49E8B1F666B20B511751986A08C2030 /* Headers */,
+				74B1E43410F195D390737156BA66F8B3 /* Sources */,
+				E0A8684319DE689FCE16281A8D0B9C28 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				25FAEE97915A8D1E8A32512FC197004B /* PBXTargetDependency */,
-				D2637A74CF78379FD5C89E7D6B15EA1A /* PBXTargetDependency */,
+				39552CFF58C981D2D735EDC8C1B1D126 /* PBXTargetDependency */,
+				0F44BBDC68F0F266D3327C5ECBE125FD /* PBXTargetDependency */,
 			);
 			name = TTConsole;
 			productName = TTConsole;
@@ -1008,52 +1015,23 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0592BC3A228301BF4D1BB04C0F668F81 /* Resources */ = {
+		F285991990D7005803FF4718CC5CA4D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EFCEFE8DF41E998697B237B4D04C0FB /* back@2x.png in Resources */,
-				997BD3E1F8D0512535EDB754EB9F63F7 /* close@2x.png in Resources */,
-				559C805F6A04D8398995C79BE8765974 /* delete@2x.png in Resources */,
-				1D9D745357010948A222445FECDD2B1C /* file@2x.png in Resources */,
-				811A0EBD84D4F71EE6193EA9443ADD49 /* folder@2x.png in Resources */,
-				329CA4664A0BCD591EB2F472C6BDF1BC /* off@2x.png in Resources */,
-				0ADD52C092F71BCECB2849122D1CCD63 /* on@2x.png in Resources */,
+				7318AF9C7B6FC3C2E758A213047A1052 /* back@2x.png in Resources */,
+				5FE6B2898022EFBEF0584133C943B9DB /* close@2x.png in Resources */,
+				4899DD054AC94A49C3EBCD9297687D97 /* delete@2x.png in Resources */,
+				4EF09CE85853CB77555FD747D9F39EA9 /* file@2x.png in Resources */,
+				AC1C0583352DF49A43A262FAAD705612 /* folder@2x.png in Resources */,
+				8FF938E634FD0AE8CE1BB6247929F696 /* off@2x.png in Resources */,
+				5BA13EC96D46EDE091539989BE89F1AB /* on@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0586FF08B15A0E5C20BC5AEC5F859063 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B9745FAD2B7D1066437110549B2D2188 /* NSURLRequest+DataExt.m in Sources */,
-				6DE81041234F20DF442EE4664271F06F /* NSURLSessionTask+Hook.m in Sources */,
-				1F376F359831EA5C2BFFAF166950363A /* TTConsole-dummy.m in Sources */,
-				0796B41C1AAAD22A0FFEF07C817AE7CC /* TTConsole.m in Sources */,
-				A7E58F961462F1B8CC4B7BEC3D136DE8 /* TTConsoleController.m in Sources */,
-				A650568510B9A9CEEDB22BDAD4817DB9 /* TTConsoleWindow.m in Sources */,
-				42AF71A51C6EB2D6302FF3EAFDC5E9E8 /* TTCrashDetailViewController.m in Sources */,
-				CE7EC61BFD9C1FB54EB0D9B40B51D6F5 /* TTCrashHelper.m in Sources */,
-				8FAC3817B507E430F99AC51B3604807D /* TTCrashStackTableViewCell.m in Sources */,
-				A95BE4C187406A307908D0C7EA00E051 /* TTCrashViewController.m in Sources */,
-				1D9FE52E786E5904396C0673013AF12B /* TTEnvTableViewCell.m in Sources */,
-				2D1A5F5ECDEAA476A64FAF79FB4DE51E /* TTEnvViewController.m in Sources */,
-				C56265814BF9159F86542847ACB43458 /* TTHttpDetailViewController.m in Sources */,
-				4B1E10163944C89EE6A2CB0484147141 /* TTHttpHelper.m in Sources */,
-				02D2ADBDCEAF35599685562121605CA0 /* TTHttpViewController.m in Sources */,
-				AAAD00EEF587263A4208F5C1D1C37746 /* TTImgPreViewController.m in Sources */,
-				C45FD3801E1C8F910B6F94D6036F1307 /* TTLogHelper.m in Sources */,
-				FB83608E321F31B6D0660E72C93DA601 /* TTLogViewController.m in Sources */,
-				D90DC549DFFD48FE50A98A289E414406 /* TTSandboxViewController.m in Sources */,
-				6C4ABDF19CBEE88DF284F996B9C69AB3 /* TTTextPreViewController.m in Sources */,
-				C1942106B3E164334E50C6E2A3EA9162 /* TTURLProtocol.m in Sources */,
-				0E11963B6F02B4FB6072E83254C7E792 /* TTURLSessionHook.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0C880ECC7B366738D772BF4D01A25406 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1079,15 +1057,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		31303B4FDBB277CDCB0A841BD5619B48 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EB0E9C501DE84898D3D97CCAF0FF4F72 /* fishhook-dummy.m in Sources */,
-				AE1525A5F33B2E2C4BA87575DACFA562 /* fishhook.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3E17E6572D676257FF7DA457DB630CA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1107,14 +1076,46 @@
 				18F582F38FD49E892FCFE7B83BE9AD04 /* UIImageView+AFNetworking.m in Sources */,
 				43A303A526B48A293DF852278E9D93CF /* UIProgressView+AFNetworking.m in Sources */,
 				4650361C4A6001B41D258C762AE72D33 /* UIRefreshControl+AFNetworking.m in Sources */,
+				6CBD9A5F22AD02BE00636270 /* TTEnvHelper.m in Sources */,
 				68785726B12FDFAE423039A3E7096927 /* UIWebView+AFNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6D349A021576CC202193D7F8DC41E05 /* Sources */ = {
+		74B1E43410F195D390737156BA66F8B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4815F053B61FB321A677A82396A18734 /* NSURLRequest+DataExt.m in Sources */,
+				9682F599B7373FF3637F29AA2146357F /* NSURLSessionTask+Hook.m in Sources */,
+				103A097C8165AEC0E30D7D80CAC268FC /* TTConsole-dummy.m in Sources */,
+				0ABFB9B4BC2523BBCE5243393DF64511 /* TTConsole.m in Sources */,
+				1E59DA621BC8F97FFC261419EBA78CA1 /* TTConsoleController.m in Sources */,
+				E29DCBB32EF92504EAC72A12EA10DF4E /* TTConsoleWindow.m in Sources */,
+				7E49B79E56469540944A76AB404B8EE0 /* TTCrashDetailViewController.m in Sources */,
+				C6EA1EDE300C9747BB72F1E34F49F0C7 /* TTCrashHelper.m in Sources */,
+				1BF50F9F0AE994B587095A0419001A71 /* TTCrashStackTableViewCell.m in Sources */,
+				88D3E473D01E676F23A8BDE75F966575 /* TTCrashViewController.m in Sources */,
+				26CC69F34B009EB5C0B7E0BAEDD163D0 /* TTEnvTableViewCell.m in Sources */,
+				D8E72611EC3E7B2AA7FBAC68111C33BE /* TTEnvViewController.m in Sources */,
+				B6611B23758E6B0AB18385F54994C87D /* TTHttpDetailViewController.m in Sources */,
+				E72470F93E1B791D7ADE72A988612FE4 /* TTHttpHelper.m in Sources */,
+				2C0454F4C7942856370FF1D2FF8CA354 /* TTHttpViewController.m in Sources */,
+				66B9A1AE2C78847F122AC77FB1644913 /* TTImgPreViewController.m in Sources */,
+				B769C37A07662FF2C3292C314E03D643 /* TTLogHelper.m in Sources */,
+				81AA156499883AAE3D357403EB954E31 /* TTLogViewController.m in Sources */,
+				78C584A4C95F18E330FEEEA0C78764C9 /* TTSandboxViewController.m in Sources */,
+				D1C584E152B37F61FFA3AE690CDF1593 /* TTTextPreViewController.m in Sources */,
+				7385F9B83DF00A7B29775B7A4B8D806C /* TTURLProtocol.m in Sources */,
+				CA12932C058DB67E97DE6687FB8B35FD /* TTURLSessionHook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BB2057450304F7E4AC454C4B643ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887F44C8CDB9802F26B40AE1490FFBC2 /* fishhook-dummy.m in Sources */,
+				2695F40BBA280A631AF4399319357A49 /* fishhook.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1126,20 +1127,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B710D546E25D52198E198FF0AF0BD693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		25FAEE97915A8D1E8A32512FC197004B /* PBXTargetDependency */ = {
+		0F44BBDC68F0F266D3327C5ECBE125FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "TTConsole-Resource";
-			target = 6D17FAFC31BF4D75D92E38D8E07BAE38 /* TTConsole-Resource */;
-			targetProxy = F39726FC58602267A104AFAF918CD158 /* PBXContainerItemProxy */;
+			name = fishhook;
+			target = 58CAF5B0291DAB42086F0645150E1791 /* fishhook */;
+			targetProxy = 27B06652CE16A4AB3E0F77593B5D7A66 /* PBXContainerItemProxy */;
 		};
 		2757C036BC4E36226272147EAD5A19B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = fishhook;
 			target = 58CAF5B0291DAB42086F0645150E1791 /* fishhook */;
 			targetProxy = 01F098EF15C4F7D48711702C9A2D8EF0 /* PBXContainerItemProxy */;
+		};
+		39552CFF58C981D2D735EDC8C1B1D126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TTConsole-Resource";
+			target = 6D17FAFC31BF4D75D92E38D8E07BAE38 /* TTConsole-Resource */;
+			targetProxy = 4B387DB2CC104E7F20F961503E21378C /* PBXContainerItemProxy */;
 		};
 		662D1AE418A9806F24A420DF34F07E5D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1164,12 +1178,6 @@
 			name = AFNetworking;
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
 			targetProxy = E26474E2DD96CB893D636F7265CFFF1B /* PBXContainerItemProxy */;
-		};
-		D2637A74CF78379FD5C89E7D6B15EA1A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = fishhook;
-			target = 58CAF5B0291DAB42086F0645150E1791 /* fishhook */;
-			targetProxy = C8B44920EA846C1523C573E74FDA5A30 /* PBXContainerItemProxy */;
 		};
 		E8AF0FB38AAE4AFB81923BE98120BEE1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1203,28 +1211,29 @@
 			};
 			name = Debug;
 		};
-		1746B43A38BDBC8D385E83E6F968C6D3 /* Debug */ = {
+		1F3F5653BFDC66E076A1E0904AA2C0C1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76A3BB912E97C54BD0362588FC91E455 /* TTConsole.xcconfig */;
+			baseConfigurationReference = 11FB6F4F108B4FDF6B394989B17E6BCB /* fishhook.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TTConsole/TTConsole-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				GCC_PREFIX_HEADER = "Target Support Files/fishhook/fishhook-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TTConsole;
-				PRODUCT_NAME = TTConsole;
+				PRODUCT_MODULE_NAME = fishhook;
+				PRODUCT_NAME = fishhook;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		2185EEA17C04EBA6B7D6CB2975354D13 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1247,22 +1256,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		273F01E969D21555875C4C3D5C25B945 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76A3BB912E97C54BD0362588FC91E455 /* TTConsole.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TTConsole";
-				INFOPLIST_FILE = "Target Support Files/TTConsole/ResourceBundle-Resource-TTConsole-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = Resource;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		29C17E80BD1454E1DB9C29893E2A8375 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1368,26 +1361,19 @@
 			};
 			name = Release;
 		};
-		544270AB69BE2BA4EB61B9539CF96ED2 /* Debug */ = {
+		562D7585C6AA17D0DE8194B03B62391A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11FB6F4F108B4FDF6B394989B17E6BCB /* fishhook.xcconfig */;
+			baseConfigurationReference = D6AAFCDA97F7C65E26548A81841D73AC /* TTConsole.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/fishhook/fishhook-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = fishhook;
-				PRODUCT_NAME = fishhook;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TTConsole";
+				INFOPLIST_FILE = "Target Support Files/TTConsole/ResourceBundle-Resource-TTConsole-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Resource;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -1413,30 +1399,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		7102C48F23CB81DEEE5510BE1FB6D765 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76A3BB912E97C54BD0362588FC91E455 /* TTConsole.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TTConsole/TTConsole-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TTConsole;
-				PRODUCT_NAME = TTConsole;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1523,45 +1485,54 @@
 			};
 			name = Debug;
 		};
-		A61100C9DA47EB7B7CF2BA87B53A611E /* Release */ = {
+		8D9AC4E7A5B86EEBDC2A5863F582B074 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76A3BB912E97C54BD0362588FC91E455 /* TTConsole.xcconfig */;
+			baseConfigurationReference = D6AAFCDA97F7C65E26548A81841D73AC /* TTConsole.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TTConsole";
-				INFOPLIST_FILE = "Target Support Files/TTConsole/ResourceBundle-Resource-TTConsole-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = Resource;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		D0D9CA929EF959D7D410A34EF91D6829 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EB15081C3D5894D5C59DA1DC7FFC0AA /* Pods-TTConsole_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TTConsole/TTConsole-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TTConsole;
+				PRODUCT_NAME = TTConsole;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		D899453EDEF8F26FE28D94B94C61BF55 /* Release */ = {
+		9ABC7242230F1C53C20E0E85011C2671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6AAFCDA97F7C65E26548A81841D73AC /* TTConsole.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TTConsole/TTConsole-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TTConsole;
+				PRODUCT_NAME = TTConsole;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAEEB680E633C3878E40FB5D248DF8ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 11FB6F4F108B4FDF6B394989B17E6BCB /* fishhook.xcconfig */;
 			buildSettings = {
@@ -1580,6 +1551,27 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0D9CA929EF959D7D410A34EF91D6829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB15081C3D5894D5C59DA1DC7FFC0AA /* Pods-TTConsole_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1609,6 +1601,22 @@
 			};
 			name = Release;
 		};
+		EFA615BA1A3A79123876DC39BDDB7374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6AAFCDA97F7C65E26548A81841D73AC /* TTConsole.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TTConsole";
+				INFOPLIST_FILE = "Target Support Files/TTConsole/ResourceBundle-Resource-TTConsole-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Resource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1621,11 +1629,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		155598AEDE1C4C4E2EDA567E64CA8F3D /* Build configuration list for PBXNativeTarget "TTConsole" */ = {
+		32E0E37B3A5E0FD41AADCD970FBBD9FC /* Build configuration list for PBXNativeTarget "TTConsole-Resource" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1746B43A38BDBC8D385E83E6F968C6D3 /* Debug */,
-				7102C48F23CB81DEEE5510BE1FB6D765 /* Release */,
+				562D7585C6AA17D0DE8194B03B62391A /* Debug */,
+				EFA615BA1A3A79123876DC39BDDB7374 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1635,15 +1643,6 @@
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		79CF728ADFD20E52BF22851F09C2D048 /* Build configuration list for PBXNativeTarget "TTConsole-Resource" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				273F01E969D21555875C4C3D5C25B945 /* Debug */,
-				A61100C9DA47EB7B7CF2BA87B53A611E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1675,11 +1674,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C71F3C7D441C9E55D41F2E4BC8761D11 /* Build configuration list for PBXNativeTarget "fishhook" */ = {
+		9460B116FAC72AD8B308732907BABD61 /* Build configuration list for PBXNativeTarget "TTConsole" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				544270AB69BE2BA4EB61B9539CF96ED2 /* Debug */,
-				D899453EDEF8F26FE28D94B94C61BF55 /* Release */,
+				9ABC7242230F1C53C20E0E85011C2671 /* Debug */,
+				8D9AC4E7A5B86EEBDC2A5863F582B074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC44B0F1F04C4442136AC8C38FC9CF1C /* Build configuration list for PBXNativeTarget "fishhook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEEB680E633C3878E40FB5D248DF8ED /* Debug */,
+				1F3F5653BFDC66E076A1E0904AA2C0C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
