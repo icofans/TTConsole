@@ -14,11 +14,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [[TTConsole console] enableDebugMode];
-    
-    NSLog(@"[当前启动环境为%@]",@[@"内网测试", @"外网测试", @"外网生产"][[TTConsole console].currentEnvironment]);
     
 
+    
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = [TTViewController new];
     self.window.backgroundColor = [UIColor whiteColor];
