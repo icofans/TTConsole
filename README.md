@@ -45,8 +45,9 @@ pod 'TTConsole'
 ## 截图
 
 ### 主界面
+<img src="https://github.com/icofans/TTConsole/blob/master/ScreenShot/%E4%B8%BB%E7%95%8C%E9%9D%A2-001.png" width="100">
 
-![主界面](https://github.com/icofans/TTConsole/blob/master/ScreenShot/%E4%B8%BB%E7%95%8C%E9%9D%A2-001.png?raw=true = 250x)
+![主界面]( = 250x)
 
 ### 环境切换
 
