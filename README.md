@@ -19,11 +19,11 @@
 
 ## 崩溃收集
 
-对崩溃进行收集查看
+对崩溃进行收集，显示崩溃的堆栈信息
 
 ## 沙盒浏览
 
-浏览沙盒文件
+浏览沙盒文件,方便查看开发过程中创建的文件，目前仅支持查看 plist,图片,文本类的详情
 
 ## 安装
 
@@ -32,7 +32,7 @@ pod 'TTConsole'
 ```
 # 使用
 
-在 <pre>- (void)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions</pre> 方法注册
+在  - (void)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 方法注册
 
 ```objc
 #if DEBUG
@@ -42,5 +42,4 @@ pod 'TTConsole'
 ```
 之后在项目启动后点击状态栏即可进入调试主界面
 
-
-
+## 截图
