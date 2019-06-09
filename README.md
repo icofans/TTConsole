@@ -43,3 +43,12 @@ pod 'TTConsole'
 之后在项目启动后点击状态栏即可进入调试主界面
 
 ## 截图
+
+### 主界面
+
+https://github.com/icofans/TTConsole/blob/master/ScreenShot/%E4%B8%BB%E7%95%8C%E9%9D%A2-001.png?raw=true
+
+### 
+
+https://github.com/icofans/TTConsole/blob/master/ScreenShot/%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82-003.png?raw=true
+https://github.com/icofans/TTConsole/blob/master/ScreenShot/%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82-003.png?raw=true
