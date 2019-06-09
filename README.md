@@ -40,3 +40,7 @@ pod 'TTConsole'
     NSLog(@"[当前启动环境为%@]",@[@"内网测试", @"外网测试", @"外网生产"][[TTConsole console].currentEnvironment]);
 #endif
 ```
+之后在项目启动后点击状态栏即可进入调试主界面：
+
+
+
