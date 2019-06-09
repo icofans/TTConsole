@@ -7,24 +7,39 @@
 
 #import <Foundation/Foundation.h>
 
-#ifdef DEBUG
-#define NSLog(xxx, ...); \
-{NSLog((@"%s [%d行] " xxx), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);}\
-{[[TTConsole console] markLog:[NSString stringWithFormat:(@"%s [%d行] " xxx), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__]];}
-#else
-#define NSLog(...)
-#endif
+typedef NS_OPTIONS(NSUInteger, TTEnvironmentType) {
+    ENV_INTRANET_TEST           = 0, // 内网测试
+    ENV_OUTERNET_TEST           = 1, // 外网测试
+    ENV_PRODUCTION_TEST         = 2, // 生产测试
+};
+
+// env key
+extern NSString * const TTEnvironmentKey;
 
 @interface TTConsole : NSObject
 
+/**
+ instance
+
+ @return instance
+ */
 + (instancetype)console;
 
 /**
- 记录log
- 
- @param log 日志
+ 是否开启Debug模式
  */
-- (void)markLog:(NSString *)log;
+- (void)enableDebugMode;
+
+/**
+ 当前环境，默认重启后生效
+ */
+@property (nonatomic, assign, readonly) TTEnvironmentType currentEnvironment;
+
+/**
+ 环境切换回调 [如果切换需要重启请直接在启动时读取currentEnvironment，此属性只用于立即切换不重启的情况]
+ */
+@property (nonatomic,copy) void(^environmentChanged)(TTEnvironmentType env);
+
 
 @end
 

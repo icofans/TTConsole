@@ -11,8 +11,9 @@
 #endif
 
 #import "TTConsole.h"
-#import "TTConsoleFloatView.h"
-#import "TTConsoleLogView.h"
+#import "TTConsoleController.h"
+#import "TTConsoleWindow.h"
+#import "TTLogViewController.h"
 
 FOUNDATION_EXPORT double TTConsoleVersionNumber;
 FOUNDATION_EXPORT const unsigned char TTConsoleVersionString[];

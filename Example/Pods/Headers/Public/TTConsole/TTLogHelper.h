@@ -1,0 +1,1 @@
+../../../../../TTConsole/Classes/Log/TTLogHelper.h

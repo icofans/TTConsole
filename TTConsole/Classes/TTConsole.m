@@ -6,24 +6,36 @@
 //
 
 #import "TTConsole.h"
-#import "TTConsoleFloatView.h"
-#import "TTConsoleLogView.h"
+#import "TTConsoleController.h"
+#import "TTConsoleWindow.h"
+#import "TTLogHelper.h"
+#import "TTHttpHelper.h"
+#import "TTCrashHelper.h"
+
+NSString * const TTEnvironmentKey = @"AppEnvironment";
 
 @interface TTConsole ()
-@property (nonatomic, strong) NSMutableAttributedString *attributedlogStr;
-@property (strong, nonatomic) TTConsoleFloatView *floatView;
-@property (strong, nonatomic) TTConsoleLogView *logView;
+
+@property (nonatomic,strong) TTConsoleWindow *consoleWindow;
+@property (nonatomic,strong) UINavigationController *consoleVC;
 
 @end
 
 @implementation TTConsole
+
+- (TTConsoleWindow *)consoleWindow
+{
+    if (!_consoleWindow) {
+        _consoleWindow = [[TTConsoleWindow alloc] init];
+    }
+    return _consoleWindow;
+}
 
 + (instancetype)console {
     static TTConsole *instance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         instance = [[super allocWithZone:NULL] init];
-        instance.attributedlogStr = [[NSMutableAttributedString alloc] init];
     });
     return instance;
 }
@@ -33,56 +45,38 @@
     return [TTConsole console];
 }
 
-- (void)markLog:(NSString *)log {
-    // 注册
-    if ([[TTConsole console] registerConsole]) {
-        NSString * addLog = [NSString stringWithFormat:@"%@\n", log];
-        
-        NSMutableParagraphStyle *style = [[NSMutableParagraphStyle defaultParagraphStyle] mutableCopy];
-        style.lineSpacing = 3;
-        style.headIndent = 4;
-        NSAttributedString *attrText = [[NSAttributedString alloc] initWithString:addLog attributes:@{NSParagraphStyleAttributeName:style}];
-        [self.attributedlogStr appendAttributedString:attrText];
-        
-        if (!_logView.hidden) {
-            [_logView updateLog:attrText];
-        }
-    }
-}
-
-- (BOOL)registerConsole {
-    // 保证页面被创建
-    if (![[UIApplication sharedApplication] delegate].window) {
-        return NO;
-    } else {
-        if (!self.floatView) {
-            self.floatView = [[TTConsoleFloatView alloc] init];
-//            [[[UIApplication sharedApplication] delegate].window addSubview:self.floatView];
-            __weak __typeof(self)weakSelf = self;
-            self.floatView.onClick = ^{
-                weakSelf.floatView.hidden = YES;
-                weakSelf.logView.hidden = NO;
-                [weakSelf.logView updateAllLog:[weakSelf.attributedlogStr copy]];
-            };
-        }
-        return YES;
-    }
-}
-
-- (TTConsoleLogView *)logView
+- (void)enableDebugMode
 {
-    if (!_logView) {
-        _logView = [[TTConsoleLogView alloc] initWithFrame:CGRectMake(0, [UIScreen mainScreen].bounds.size.height-240, [UIScreen mainScreen].bounds.size.width, 240)];
-        __weak __typeof(self)weakSelf = self;
-        _logView.closeClick = ^{
-            weakSelf.floatView.hidden = NO;
-            weakSelf.logView.hidden = YES;
-        };
-        _logView.clearClick = ^{
-            weakSelf.attributedlogStr = [[NSMutableAttributedString alloc] init];
-        };
+    [[TTCrashHelper helper] start];
+    [[TTLogHelper helper] start];
+    [[TTHttpHelper helper] start];
+    
+    typeof(self) __weak weakSelf = self;
+    self.consoleWindow.onClick = ^{
+        [weakSelf showConsoleVC];
+    };
+}
+
+- (void)showConsoleVC
+{
+    
+    if (self.consoleVC.isViewLoaded && self.consoleVC.view.window && self.consoleVC) {
+        [self.consoleVC popToRootViewControllerAnimated:NO];
+        [self.consoleVC dismissViewControllerAnimated:YES completion:nil];
+        self.consoleVC = nil;
+    } else {
+        self.consoleVC = [[UINavigationController alloc] initWithRootViewController:[[TTConsoleController alloc] init]];
+        [self.consoleVC.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont boldSystemFontOfSize:14],NSForegroundColorAttributeName:[UIColor colorWithRed:255/255.0 green:184/255.0 blue:108/255.0 alpha:1]}];
+        self.consoleVC.navigationBar.tintColor = [UIColor colorWithRed:255/255.0 green:184/255.0 blue:108/255.0 alpha:1];
+        UIViewController* vc = [[[UIApplication sharedApplication].delegate window] rootViewController];
+        [vc.presentedViewController?:vc presentViewController:self.consoleVC animated:YES completion:nil];
     }
-    return _logView;
+}
+
+#pragma mark - env
+- (TTEnvironmentType)currentEnvironment
+{
+    return [[NSUserDefaults standardUserDefaults] integerForKey:TTEnvironmentKey];
 }
 
 @end

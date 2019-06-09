@@ -1,32 +1,63 @@
 {
   "name": "TTConsole",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "A short description of TTConsole.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "http://96333tech.com",
+  "homepage": "https://github.com/icofans/TTConsole",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "wangjiaqiang": "12345"
+    "icofans": "565057208@qq.com"
   },
   "source": {
-    "svn": "svn://172.30.40.10/PRODUCT/ServicePlatform/SRC/trunk/iOS/libs/TTConsole"
+    "git": "https://github.com/icofans/TTConsole.git",
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TTConsole/Classes/**/*",
+  "source_files": "TTConsole/Classes/*.{h,m}",
+  "resource_bundles": {
+    "Resource": [
+      "TTConsole/Assets/Resource/*.png"
+    ]
+  },
+  "dependencies": {
+    "fishhook": [
+
+    ]
+  },
   "subspecs": [
     {
-      "name": "TTSignature",
-      "source_files": "TTComponentKit/TTSignature/*.{h,m}",
-      "frameworks": [
-        "UIKit",
-        "GLKit",
-        "OpenGLES"
-      ]
+      "name": "Console",
+      "source_files": "TTConsole/Classes/Console/*.{h,m}"
+    },
+    {
+      "name": "Log",
+      "source_files": "TTConsole/Classes/Log/*.{h,m}"
+    },
+    {
+      "name": "Env",
+      "source_files": "TTConsole/Classes/Env/*.{h,m}"
+    },
+    {
+      "name": "Http",
+      "source_files": "TTConsole/Classes/Http/*.{h,m}"
+    },
+    {
+      "name": "Crash",
+      "source_files": "TTConsole/Classes/Crash/*.{h,m}"
+    },
+    {
+      "name": "Sandbox",
+      "source_files": "TTConsole/Classes/Sandbox/*.{h,m}",
+      "frameworks": "QuickLook"
+    },
+    {
+      "name": "HttpHook",
+      "source_files": "TTConsole/Classes/HttpHook/*.{h,m}"
     }
   ]
 }

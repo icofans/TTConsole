@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A988F5FE1EDAC773707A87F /* Pods_TTConsole_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C6BA3C9ACCA4582BB48A6F /* Pods_TTConsole_Example.framework */; };
-		46F699CF5FBE570354D3E289 /* Pods_TTConsole_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BEAA6B648630D4340ECB9F /* Pods_TTConsole_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +20,11 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6C35493622AB91E600A73E2E /* TestApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C35493422AB91E600A73E2E /* TestApi.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		BF3AA71737CA355992EC1AC1 /* libPods-TTConsole_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE31D1DDF0EC1048475F9E7 /* libPods-TTConsole_Tests.a */; };
+		FE140C96DB96FC5DD3FD9F02 /* libPods-TTConsole_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 981DF2A476C0501B60F875E8 /* libPods-TTConsole_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		04970D2B04D43F7654639513 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3AE31D1DDF0EC1048475F9E7 /* libPods-TTConsole_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTConsole_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46347EE646ED7E088106F38E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TTConsole_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTConsole_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,13 +60,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6C35493422AB91E600A73E2E /* TestApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestApi.m; sourceTree = "<group>"; };
+		6C35493522AB91E600A73E2E /* TestApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestApi.h; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92DA2D966FBF174AC605D7DF /* Pods-TTConsole_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTConsole_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTConsole_Example/Pods-TTConsole_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		981DF2A476C0501B60F875E8 /* libPods-TTConsole_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTConsole_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1F9E4BBD75EE6B64D20CC5 /* TTConsole.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TTConsole.podspec; path = ../TTConsole.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6BEAA6B648630D4340ECB9F /* Pods_TTConsole_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTConsole_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38F78CBB32A9D590FB013D7 /* Pods-TTConsole_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTConsole_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTConsole_Tests/Pods-TTConsole_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D3C6BA3C9ACCA4582BB48A6F /* Pods_TTConsole_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTConsole_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFB1113BA6E000F24D564F5 /* Pods-TTConsole_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTConsole_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTConsole_Tests/Pods-TTConsole_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F36F3569B9873075C4C1218A /* Pods-TTConsole_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTConsole_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTConsole_Example/Pods-TTConsole_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +80,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				1A988F5FE1EDAC773707A87F /* Pods_TTConsole_Example.framework in Frameworks */,
+				FE140C96DB96FC5DD3FD9F02 /* libPods-TTConsole_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +91,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				46F699CF5FBE570354D3E289 /* Pods_TTConsole_Tests.framework in Frameworks */,
+				BF3AA71737CA355992EC1AC1 /* libPods-TTConsole_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +137,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				D3C6BA3C9ACCA4582BB48A6F /* Pods_TTConsole_Example.framework */,
-				A6BEAA6B648630D4340ECB9F /* Pods_TTConsole_Tests.framework */,
+				981DF2A476C0501B60F875E8 /* libPods-TTConsole_Example.a */,
+				3AE31D1DDF0EC1048475F9E7 /* libPods-TTConsole_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* TTViewController.h */,
 				6003F5A6195388D20070C39A /* TTViewController.m */,
+				6C35493522AB91E600A73E2E /* TestApi.h */,
+				6C35493422AB91E600A73E2E /* TestApi.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -207,7 +212,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				3D62182B0D6D3CEC397E4201 /* [CP] Embed Pods Frameworks */,
+				019D4E00727F466FD8175637 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,20 +302,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0AA3D1A27AD111EBE39EF845 /* [CP] Check Pods Manifest.lock */ = {
+		019D4E00727F466FD8175637 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TTConsole_Example/Pods-TTConsole_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TTConsole/Resource.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Resource.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TTConsole_Example/Pods-TTConsole_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0AA3D1A27AD111EBE39EF845 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TTConsole_Tests-checkManifestLockResult.txt",
 			);
@@ -324,43 +343,17 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TTConsole_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3D62182B0D6D3CEC397E4201 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TTConsole_Example/Pods-TTConsole_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TTConsole/TTConsole.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTConsole.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTConsole_Example/Pods-TTConsole_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -372,6 +365,7 @@
 			files = (
 				6003F59E195388D20070C39A /* TTAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TTViewController.m in Sources */,
+				6C35493622AB91E600A73E2E /* TestApi.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,7 +496,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X8GHMEWAMM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
+				GCC_PREFIX_HEADER = "TTConsole/TTConsole-Prefix.pch";
 				INFOPLIST_FILE = "TTConsole/TTConsole-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -518,7 +512,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X8GHMEWAMM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
+				GCC_PREFIX_HEADER = "TTConsole/TTConsole-Prefix.pch";
 				INFOPLIST_FILE = "TTConsole/TTConsole-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";

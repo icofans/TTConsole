@@ -1,18 +1,66 @@
 PODS:
-  - TTConsole (0.1.0):
-    - TTConsole/TTSignature (= 0.1.0)
-  - TTConsole/TTSignature (0.1.0)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - fishhook (0.2)
+  - TTConsole (0.1.2):
+    - fishhook
+    - TTConsole/Console (= 0.1.2)
+    - TTConsole/Crash (= 0.1.2)
+    - TTConsole/Env (= 0.1.2)
+    - TTConsole/Http (= 0.1.2)
+    - TTConsole/HttpHook (= 0.1.2)
+    - TTConsole/Log (= 0.1.2)
+    - TTConsole/Sandbox (= 0.1.2)
+  - TTConsole/Console (0.1.2):
+    - fishhook
+  - TTConsole/Crash (0.1.2):
+    - fishhook
+  - TTConsole/Env (0.1.2):
+    - fishhook
+  - TTConsole/Http (0.1.2):
+    - fishhook
+  - TTConsole/HttpHook (0.1.2):
+    - fishhook
+  - TTConsole/Log (0.1.2):
+    - fishhook
+  - TTConsole/Sandbox (0.1.2):
+    - fishhook
+  - YTKNetwork (2.0.4):
+    - AFNetworking (~> 3.0)
 
 DEPENDENCIES:
   - TTConsole (from `../`)
+  - YTKNetwork
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - fishhook
+    - YTKNetwork
 
 EXTERNAL SOURCES:
   TTConsole:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TTConsole: e4ee9301e8414a2a59f4624627fc7fb285d4e9bb
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
+  TTConsole: 184b4d9e7abe0afc964ba79bd0cd5eaad8bb24ff
+  YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
 
-PODFILE CHECKSUM: 53c12c6786d9aaca6ebdb7db71d602af55155509
+PODFILE CHECKSUM: 527baced0588be93a5675e05675e3e20122aa05d
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.1
