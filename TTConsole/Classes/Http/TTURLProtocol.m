@@ -9,6 +9,7 @@
 #import "TTURLRequestKey.h"
 #import "TTHttpHelper.h"
 
+NSString * const TTURLRequestRequestIdKey       = @"requestId";
 NSString * const TTURLRequestUrlKey             = @"url";
 NSString * const TTURLRequestMethodKey          = @"method";
 NSString * const TTURLRequestMineTypeKey        = @"mineType";

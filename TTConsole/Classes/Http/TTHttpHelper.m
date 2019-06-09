@@ -6,8 +6,8 @@
 //
 
 #import "TTHttpHelper.h"
-#import "TTURLProtocol.h"
 #import "TTURLRequestKey.h"
+#import "TTURLProtocol.h"
 
 @interface TTHttpHelper ()
 

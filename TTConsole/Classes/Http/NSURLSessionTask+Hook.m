@@ -11,8 +11,6 @@
 #import "TTURLRequestKey.h"
 #import "TTHttpHelper.h"
 
-NSString * const TTURLRequestRequestIdKey       = @"requestId";
-
 @implementation NSURLSessionTask (Hook)
 
 + (void)load {

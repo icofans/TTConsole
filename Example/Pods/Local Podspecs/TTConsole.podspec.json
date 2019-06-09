@@ -1,6 +1,6 @@
 {
   "name": "TTConsole",
-  "version": "0.1.2",
+  "version": "0.1.6",
   "summary": "A short description of TTConsole.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/icofans/TTConsole",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/icofans/TTConsole.git",
-    "tag": "0.1.2"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "8.0"
@@ -32,32 +32,53 @@
   "subspecs": [
     {
       "name": "Console",
-      "source_files": "TTConsole/Classes/Console/*.{h,m}"
+      "source_files": "TTConsole/Classes/Console/*.{h,m}",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "TTConsole/Log": [
+
+        ],
+        "TTConsole/Env": [
+
+        ],
+        "TTConsole/Http": [
+
+        ],
+        "TTConsole/Crash": [
+
+        ],
+        "TTConsole/Sandbox": [
+
+        ]
+      }
     },
     {
       "name": "Log",
-      "source_files": "TTConsole/Classes/Log/*.{h,m}"
+      "source_files": "TTConsole/Classes/Log/*.{h,m}",
+      "frameworks": "UIKit"
     },
     {
       "name": "Env",
-      "source_files": "TTConsole/Classes/Env/*.{h,m}"
+      "source_files": "TTConsole/Classes/Env/*.{h,m}",
+      "frameworks": "UIKit"
     },
     {
       "name": "Http",
-      "source_files": "TTConsole/Classes/Http/*.{h,m}"
+      "source_files": "TTConsole/Classes/Http/*.{h,m}",
+      "frameworks": "UIKit"
     },
     {
       "name": "Crash",
-      "source_files": "TTConsole/Classes/Crash/*.{h,m}"
+      "source_files": "TTConsole/Classes/Crash/*.{h,m}",
+      "frameworks": "UIKit"
     },
     {
       "name": "Sandbox",
       "source_files": "TTConsole/Classes/Sandbox/*.{h,m}",
-      "frameworks": "QuickLook"
-    },
-    {
-      "name": "HttpHook",
-      "source_files": "TTConsole/Classes/HttpHook/*.{h,m}"
+      "frameworks": [
+        "QuickLook",
+        "UIKit"
+      ]
     }
   ]
 }

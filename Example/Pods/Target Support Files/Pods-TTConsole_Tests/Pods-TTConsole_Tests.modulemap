@@ -1,6 +1,0 @@
-framework module Pods_TTConsole_Tests {
-  umbrella header "Pods-TTConsole_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

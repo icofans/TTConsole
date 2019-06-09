@@ -15,28 +15,30 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - fishhook (0.2)
-  - TTConsole (0.1.2):
+  - TTConsole (0.1.6):
     - fishhook
-    - TTConsole/Console (= 0.1.2)
-    - TTConsole/Crash (= 0.1.2)
-    - TTConsole/Env (= 0.1.2)
-    - TTConsole/Http (= 0.1.2)
-    - TTConsole/HttpHook (= 0.1.2)
-    - TTConsole/Log (= 0.1.2)
-    - TTConsole/Sandbox (= 0.1.2)
-  - TTConsole/Console (0.1.2):
+    - TTConsole/Console (= 0.1.6)
+    - TTConsole/Crash (= 0.1.6)
+    - TTConsole/Env (= 0.1.6)
+    - TTConsole/Http (= 0.1.6)
+    - TTConsole/Log (= 0.1.6)
+    - TTConsole/Sandbox (= 0.1.6)
+  - TTConsole/Console (0.1.6):
     - fishhook
-  - TTConsole/Crash (0.1.2):
+    - TTConsole/Crash
+    - TTConsole/Env
+    - TTConsole/Http
+    - TTConsole/Log
+    - TTConsole/Sandbox
+  - TTConsole/Crash (0.1.6):
     - fishhook
-  - TTConsole/Env (0.1.2):
+  - TTConsole/Env (0.1.6):
     - fishhook
-  - TTConsole/Http (0.1.2):
+  - TTConsole/Http (0.1.6):
     - fishhook
-  - TTConsole/HttpHook (0.1.2):
+  - TTConsole/Log (0.1.6):
     - fishhook
-  - TTConsole/Log (0.1.2):
-    - fishhook
-  - TTConsole/Sandbox (0.1.2):
+  - TTConsole/Sandbox (0.1.6):
     - fishhook
   - YTKNetwork (2.0.4):
     - AFNetworking (~> 3.0)
@@ -58,7 +60,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
-  TTConsole: 184b4d9e7abe0afc964ba79bd0cd5eaad8bb24ff
+  TTConsole: a80d752d83fb324dd424693b029797282bbd8934
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
 
 PODFILE CHECKSUM: 527baced0588be93a5675e05675e3e20122aa05d

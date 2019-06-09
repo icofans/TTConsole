@@ -19,6 +19,4 @@ extern NSString * const TTURLRequestResponseDataKey;
 extern NSString * const TTURLRequestIsImageKey;
 extern NSString * const TTURLRequestImageDataKey;
 
-
-
 #endif /* TTURLRequestKey_h */

@@ -16,25 +16,32 @@ TODO: Add long description of the pod here.
   
   s.subspec 'Console' do |ss|
       ss.source_files = 'TTConsole/Classes/Console/*.{h,m}'
+      ss.frameworks = 'UIKit'
+      ss.dependency 'TTConsole/Log'
+      ss.dependency 'TTConsole/Env'
+      ss.dependency 'TTConsole/Http'
+      ss.dependency 'TTConsole/Crash'
+      ss.dependency 'TTConsole/Sandbox'
   end
   s.subspec 'Log' do |ss|
       ss.source_files = 'TTConsole/Classes/Log/*.{h,m}'
+      ss.frameworks = 'UIKit'
   end
   s.subspec 'Env' do |ss|
       ss.source_files = 'TTConsole/Classes/Env/*.{h,m}'
+      ss.frameworks = 'UIKit'
   end
   s.subspec 'Http' do |ss|
       ss.source_files = 'TTConsole/Classes/Http/*.{h,m}'
+      ss.frameworks = 'UIKit'
   end
   s.subspec 'Crash' do |ss|
       ss.source_files = 'TTConsole/Classes/Crash/*.{h,m}'
+      ss.frameworks = 'UIKit'
   end
   s.subspec 'Sandbox' do |ss|
       ss.source_files = 'TTConsole/Classes/Sandbox/*.{h,m}'
-      ss.frameworks = 'QuickLook'
-  end
-  s.subspec 'HttpHook' do |ss|
-      ss.source_files = 'TTConsole/Classes/HttpHook/*.{h,m}'
+      ss.frameworks = 'QuickLook','UIKit'
   end
   s.resource_bundles = {
       'Resource' => ['TTConsole/Assets/Resource/*.png']

@@ -1,6 +1,0 @@
-framework module Pods_TTConsole_Example {
-  umbrella header "Pods-TTConsole_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
