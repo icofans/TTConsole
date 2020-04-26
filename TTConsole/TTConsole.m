@@ -65,8 +65,10 @@
         self.consoleVC = nil;
     } else {
         self.consoleVC = [[UINavigationController alloc] initWithRootViewController:[[TTConsoleController alloc] init]];
+        self.consoleVC.view.backgroundColor = [UIColor whiteColor];
         [self.consoleVC.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont boldSystemFontOfSize:14],NSForegroundColorAttributeName:[UIColor colorWithRed:255/255.0 green:184/255.0 blue:108/255.0 alpha:1]}];
         self.consoleVC.navigationBar.tintColor = [UIColor colorWithRed:255/255.0 green:184/255.0 blue:108/255.0 alpha:1];
+        self.consoleVC.modalPresentationStyle = UIModalPresentationFullScreen;
         UIViewController* vc = [[[UIApplication sharedApplication].delegate window] rootViewController];
         [vc.presentedViewController?:vc presentViewController:self.consoleVC animated:YES completion:nil];
     }

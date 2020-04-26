@@ -16,7 +16,7 @@
 {
     
 
-    
+    [[TTConsole console] enableDebugMode];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = [TTViewController new];
