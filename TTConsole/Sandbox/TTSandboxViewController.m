@@ -38,7 +38,7 @@
 - (void)setupNav
 {
     self.navigationItem.title = self.filePath?[self.filePath lastPathComponent]:@"SandBox";
-    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Resource.bundle/back"] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Console.bundle/back"] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
     self.navigationItem.leftBarButtonItem = backItem;
 }
 
@@ -77,7 +77,7 @@
     BOOL directiory = NO;
     [_fileManager fileExistsAtPath:subPath isDirectory:&directiory];
     cell.accessoryType = directiory ? UITableViewCellAccessoryDisclosureIndicator :UITableViewCellAccessoryNone ;
-    cell.imageView.image = [UIImage imageNamed:directiory ? @"Resource.bundle/folder" : @"Resource.bundle/file"];
+    cell.imageView.image = [UIImage imageNamed:directiory ? @"Console.bundle/folder" : @"Console.bundle/file"];
     cell.textLabel.font = [UIFont systemFontOfSize:14.0];
     return cell;
 }

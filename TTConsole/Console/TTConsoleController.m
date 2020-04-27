@@ -50,7 +50,7 @@ static NSString * TTConsoleItemNameKey = @"name";
 - (void)setupNav
 {
     self.navigationItem.title = @"调试工具";
-    UIBarButtonItem *closeItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Resource.bundle/close"] style:UIBarButtonItemStylePlain target:self action:@selector(closeController)];
+    UIBarButtonItem *closeItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Console.bundle/close"] style:UIBarButtonItemStylePlain target:self action:@selector(closeController)];
     self.navigationItem.leftBarButtonItem = closeItem;
 }
 

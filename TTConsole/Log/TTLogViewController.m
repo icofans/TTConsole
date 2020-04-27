@@ -72,10 +72,10 @@
 - (void)setupNav
 {
     self.navigationItem.title = @"调试日志";
-    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Resource.bundle/back"] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Console.bundle/back"] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
     self.navigationItem.leftBarButtonItem = backItem;
     
-    UIBarButtonItem *clearItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Resource.bundle/delete"] style:UIBarButtonItemStylePlain target:self action:@selector(clear)];
+    UIBarButtonItem *clearItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Console.bundle/delete"] style:UIBarButtonItemStylePlain target:self action:@selector(clear)];
     self.navigationItem.rightBarButtonItem = clearItem;
 }
 

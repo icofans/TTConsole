@@ -44,7 +44,7 @@ TODO: Add long description of the pod here.
       ss.frameworks = 'QuickLook','UIKit'
   end
   s.resource_bundles = {
-      'Resource' => ['TTConsole/Assets/Resource/*.png']
+      'Console' => ['TTConsole/Assets/Resource/*.png']
   }
   s.dependency 'fishhook'
   

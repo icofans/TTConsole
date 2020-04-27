@@ -80,7 +80,7 @@ NSString * const TTEnvironmentSelectKey = @"select";
 {
     self.nameLabel.text = model[TTEnvironmentNameKey];
     self.nameLabel.textColor = [model[TTEnvironmentSelectKey] boolValue]?[UIColor colorWithRed:26/255.0 green:173/255.0 blue:22/255.0 alpha:1]:[UIColor colorWithRed:255/255.0 green:184/255.0 blue:108/255.0 alpha:1];
-    self.indicator.image = [model[TTEnvironmentSelectKey] boolValue]?[UIImage imageNamed:@"Resource.bundle/on"]:[UIImage imageNamed:@"Resource.bundle/off"];
+    self.indicator.image = [model[TTEnvironmentSelectKey] boolValue]?[UIImage imageNamed:@"Console.bundle/on"]:[UIImage imageNamed:@"Console.bundle/off"];
     self.bgView.layer.borderColor = ([model[TTEnvironmentSelectKey] boolValue]?[UIColor colorWithRed:26/255.0 green:173/255.0 blue:22/255.0 alpha:1]:[UIColor clearColor]).CGColor;
 }
 
